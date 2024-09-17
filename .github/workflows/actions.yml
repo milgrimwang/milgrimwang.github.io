@@ -2,7 +2,7 @@ name: run news_aggregator.py
 
 on:
   schedule:
-    - cron: '0 6,10,14,18,22 * * *'
+    - cron: '0 6,9,12,15,18,21 * * *'
   workflow_dispatch:
 
 jobs:
