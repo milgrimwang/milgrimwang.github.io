@@ -1,1 +1,1 @@
-#### Tech news aggregator
+#### News aggregator
