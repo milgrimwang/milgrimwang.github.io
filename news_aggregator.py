@@ -13,7 +13,7 @@ from jinja2 import Environment, FileSystemLoader
 RSS_FEEDS = [
     "https://www.technologyreview.com/feed/",
     "https://www.eurogamer.net/feed",
-    "https://rss.slashdot.org/Slashdot/slashdotMain",
+    # "https://rss.slashdot.org/Slashdot/slashdotMain",
     "https://www.cnet.com/rss/news/",
     "https://gizmodo.com/feed",
     "https://www.techradar.com/feeds/articletype/news",
