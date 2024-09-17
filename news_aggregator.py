@@ -1,0 +1,136 @@
+#!/usr/bin/env python
+"""
+RSS feeds news aggregator
+"""
+import re
+import os
+import urllib.request
+from datetime import datetime
+from urllib.parse import urlparse
+
+from jinja2 import Environment, FileSystemLoader
+
+RSS_FEEDS = [
+    "https://www.technologyreview.com/feed/",
+    "https://www.eurogamer.net/feed",
+    "https://rss.slashdot.org/Slashdot/slashdotMain",
+    "https://www.cnet.com/rss/news/",
+    "https://gizmodo.com/feed",
+    "https://www.techradar.com/feeds/articletype/news",
+    "https://feeds.arstechnica.com/arstechnica/index",
+    "https://www.engadget.com/rss.xml",
+    "https://www.theverge.com/rss/index.xml",
+    "https://techcrunch.com/feed/",
+    "https://www.bleepingcomputer.com/feed/",
+    "https://www.cisa.gov/news.xml",
+    "https://krebsonsecurity.com/feed/",
+    "https://www.schneier.com/feed/atom/",
+    "https://www.afcea.org/signal-articles-feed.xml",
+    "https://phys.org/rss-feed/",
+]
+DT_FORMAT = [
+    "%a, %d %b %Y %H:%M:%S %z",
+    "%Y-%m-%dT%H:%M:%S%z",
+    "%a, %d %b %y %H:%M:%S %z",
+]
+TODAY = datetime.now().date()
+TITLE = f"News for {TODAY}"
+TEMPLATE_FILE = "index.tpl"
+
+
+def get_url_content(url):
+    # print(f"Download {url}")
+    try:
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:130.0) Gecko/20100101 Firefox/130.0'
+        }
+        request = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(request) as response:
+            return response.read().decode("utf-8")
+    except Exception as ex:
+        print(f"Failed to download {url} because of {ex}")
+
+
+def parse_dt_string(dt_string):
+    if "EDT" in dt_string:
+        dt_string = dt_string.replace("EDT", "-04:00")
+
+    for dt_format in DT_FORMAT:
+        try:
+            return datetime.strptime(dt_string, dt_format)
+        except ValueError:
+            pass
+
+    raise ValueError(f"Failed to parse {dt_string}")
+
+
+def main():
+    news_links = []
+    for rss_url in RSS_FEEDS:
+        rss_file_name = (
+            urlparse(rss_url).netloc
+            .replace("www.", "").replace("rss.", "").replace("feeds.", "").replace(".", "_") + ".xml"
+        )
+        # Caching for debug
+        if os.path.isfile(rss_file_name):
+            # print(f"RSS file {rss_file_name} already exists. Skip download.")
+            rss_content = open(rss_file_name).read()
+        else:
+            rss_content = get_url_content(rss_url)
+            if rss_content is None:
+                continue
+
+            with open(rss_file_name, "w") as rss_file:
+                rss_file.write(rss_content + "\n")
+
+        items = re.findall(r"<item>(.*?)</item>", rss_content, re.DOTALL)
+        if not items:
+            items = re.findall(r"<item rdf.*?>(.*?)</item>", rss_content, re.DOTALL)
+        if not items:
+            items = re.findall(r"<entry>(.*?)</entry>", rss_content, re.DOTALL)
+        for item in items:
+            title = re.findall(r"<title>(.*?)</title>", item, re.DOTALL)
+            if not title:
+                title = re.findall(r"<title.*?>(.*?)</title>", item, re.DOTALL)
+            if title:
+                title = title[0].strip()
+                if "<![CDATA[" in title:
+                    title = title.replace("<![CDATA[", "").replace("]]>", "").strip()
+                if "&#8217;" in title:
+                    title = title.replace("&#8217;", "'")
+                if "&#039;" in title:
+                    title = title.replace("&#039;", "'")
+                if "&#8243;" in title:
+                    title = title.replace("&#8243;", '"')
+
+            news_url = re.findall(r"<link>(.*?)</link>", item, re.DOTALL)
+            if not news_url:
+                news_url = re.findall(r'<link.*?href="(.*?)"', item, re.DOTALL)
+            if news_url:
+                news_url = news_url[0].strip()
+                if "<![CDATA[" in news_url:
+                    news_url = news_url.replace("<![CDATA[", "").replace("]]>", "").strip()
+
+            created_at = re.findall(r"<pubDate>(.*?)</pubDate>", item, re.DOTALL)
+            if not created_at:
+                created_at = re.findall(r"<dc:date>(.*?)</dc:date>", item, re.DOTALL)
+            if not created_at:
+                created_at = re.findall(r"<published>(.*?)</published>", item, re.DOTALL)
+            if created_at:
+                created_at = created_at[0].strip()
+                created_at = parse_dt_string(created_at)
+
+            if created_at.date() == TODAY:
+                # print(rss_file_name, created_at, title, news_url)
+                news_links.append({"url": news_url, "text": title, "time": created_at.strftime("%H:%M:%S")})
+
+    if news_links:
+        news_links = sorted(news_links, key=lambda link: link["time"], reverse=True)
+        env = Environment(loader=FileSystemLoader("."))
+        template = env.get_template(TEMPLATE_FILE)
+        with open("index.html", "w") as index_file:
+            index_file.write(template.render(title=TITLE, links=news_links))
+
+
+if __name__ == "__main__":
+    main()
