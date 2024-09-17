@@ -67,21 +67,9 @@ def parse_dt_string(dt_string):
 def main():
     news_links = []
     for rss_url in RSS_FEEDS:
-        rss_file_name = (
-            urlparse(rss_url).netloc
-            .replace("www.", "").replace("rss.", "").replace("feeds.", "").replace(".", "_") + ".xml"
-        )
-        # Caching for debug
-        if os.path.isfile(rss_file_name):
-            # print(f"RSS file {rss_file_name} already exists. Skip download.")
-            rss_content = open(rss_file_name).read()
-        else:
-            rss_content = get_url_content(rss_url)
-            if rss_content is None:
-                continue
-
-            with open(rss_file_name, "w") as rss_file:
-                rss_file.write(rss_content + "\n")
+        rss_content = get_url_content(rss_url)
+        if rss_content is None:
+            continue
 
         items = re.findall(r"<item>(.*?)</item>", rss_content, re.DOTALL)
         if not items:
@@ -121,7 +109,6 @@ def main():
                 created_at = parse_dt_string(created_at)
 
             if created_at.date() == TODAY:
-                # print(rss_file_name, created_at, title, news_url)
                 news_links.append({"url": news_url, "text": title, "time": created_at.strftime("%H:%M:%S")})
 
     if news_links:
