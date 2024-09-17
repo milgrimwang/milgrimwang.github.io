@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" version="2.0">
+
+<channel>
+	<title>Ars Technica - All content</title>
+	<atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
+	<link>https://arstechnica.com</link>
+	<description>All Ars Technica stories</description>
+	<lastBuildDate>Tue, 17 Sep 2024 15:36:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.3</generator>
+
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-32x32.png</url>
+	<title>Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Physicists discover “hidden turbulence” throughout van Gogh’s Starry Night</title>
+		<link>https://arstechnica.com/?p=2050040</link>
+					<comments>https://arstechnica.com/science/2024/09/physicists-discover-hidden-turbulence-throughout-van-goghs-starry-night/#comments</comments>
+		
+		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
+		<pubDate>Tue, 17 Sep 2024 15:10:12 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[art]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[Physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[The Starry Night]]></category>
+		<category><![CDATA[Vincent van Gogh]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2050040</guid>
+
+					<description><![CDATA[Scientists measured scaling of the brush strokes to arrive at their conclusions.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/vangogh2-800x586.jpg" alt="image of van gogh's painting of the night sky rendered in dark blue with swirling yellows indicating stars and wind blowing">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/vangogh2.jpg" class="enlarge-link" data-height="879" data-width="1200">Enlarge</a> <span class="sep">/</span> Many have seen a reflection of Vincent van Gogh's inner turmoil in the swirling vortices of <em>The Starry Night</em>. (credit: Public doman)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Vincent van Gogh's most famous painting is <em>The Starry Night</em> (1889), created (along with several other masterpieces) during the artist's stay at an asylum in Arles following his breakdown in December 1888. Where some have seen the swirling vortices of the night sky depicted in <em>Starry Night</em> as a reflection of van Gogh's own inner turmoil, physicists often see a masterful depiction of atmospheric turbulence. According to a <a href="https://doi.org/10.1063/5.0213627">new paper</a> published in the journal Physics of Fluids, the illusion of movement in van Gogh's blue sky is also due to the scale of the paint strokes—a second kind of "hidden turbulence" at the microscale that diffuses throughout the entire canvas.</p>
+<p>“It reveals a deep and intuitive understanding of natural phenomena,” <a href="https://www.eurekalert.org/news-releases/1057862?">said co-author Yongxiang Huang</a> of Xiamen University in China. “Van Gogh’s precise representation of turbulence might be from studying the movement of clouds and the atmosphere or an innate sense of how to capture the dynamism of the sky.”</p>
+<p>As <a href="https://arstechnica.com/science/2019/04/what-starry-night-has-in-common-with-gassy-clouds-where-stars-are-born/">previously reported</a>, in a <a href="https://www.ted.com/talks/natalya_st_clair_the_unexpected_math_behind_van_gogh_s_starry_night?language=en">2014 TED-Ed talk</a>, Natalya St. Clair, a <a href="https://concord.org/about/staff/natalya-st-clair/">research associate</a> at the Concord Consortium and coauthor of <em>The Art of Mental Calculation</em>, used <em>Starry Night</em> to illuminate the concept of turbulence in a flowing fluid. In particular, she talked about how van Gogh's technique allowed him (and other Impressionist painters) to represent the movement of light across water or in the twinkling of stars. We see this as a kind of shimmering effect, because the eye is more sensitive to changes in the intensity of light (a property called <a href="https://en.wikipedia.org/wiki/Luminance">luminance</a>) than to changes in color.</p></div><p><a href="https://arstechnica.com/?p=2050040#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2050040&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/09/physicists-discover-hidden-turbulence-throughout-van-goghs-starry-night/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Driver assists become de facto autopilots as drivers multitask, study finds</title>
+		<link>https://arstechnica.com/?p=2050292</link>
+					<comments>https://arstechnica.com/cars/2024/09/tesla-autopilot-and-other-assists-increase-distracted-driving-study-finds/#comments</comments>
+		
+		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
+		<pubDate>Tue, 17 Sep 2024 15:00:59 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[autopilot]]></category>
+		<category><![CDATA[IIHS]]></category>
+		<category><![CDATA[partial automation]]></category>
+		<category><![CDATA[partially automated driving]]></category>
+		<category><![CDATA[tesla autopilot]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2050292</guid>
+
+					<description><![CDATA[As drivers become familiar with the systems, they exploit them.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-1633254374-800x533.jpg" alt="Young casually clothed man talking on a phone and eating sandwich while driving car">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-1633254374-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> Lane keeping systems let you take your hands off the wheel while you drive.  (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The seductive lure of cars that drive themselves has led to an awful lot of hype over the past decade. Not everyone enjoys driving, after all, and the idea of freeing up the occupant to read their emails or watch a movie as their car grinds its way to their job led to billions in investments and a whole heck of a lot of GPU sales. We're still a long way from being able to buy a car with fully autonomous driving, but every OEM <a href="https://arstechnica.com/cars/2024/08/ai-good-passenger-infotainment-screens-bad-says-car-technology-survey/">wants to sell you</a> some level of partial automation that accelerates, brakes, and steers for you. There's just one problem—<a href="https://arstechnica.com/cars/2024/07/partial-automated-driving-systems-dont-make-driving-safer-study-finds/">study</a> after <a href="https://arstechnica.com/cars/2022/10/drivers-woefully-overestimate-hands-free-driver-tech-study-shows/">study</a> shows these systems make us less safe on the road.</p>
+<p>The latest data points come from a pair of studies just published by the Insurance Institute for Highway Safety, <a href="https://www.iihs.org/api/datastoredocument/bibliography/2311">one studying drivers</a> using Tesla's Autopilot, <a href="https://www.iihs.org/api/datastoredocument/bibliography/2312">the other focusing</a> on Volvo's Pilot Assist. Both found that when drivers use partially automated driving systems, they pay less attention to the road and start multitasking instead.</p>
+<p>The studies were conducted by IIHS together with the Center for Transportation and Logistics at MIT's AgeLab. The studies used Volvo S90 sedans and 2020 Tesla Model 3s, equipped with an array of cameras and sensors to monitor and record driver behavior.</p></div><p><a href="https://arstechnica.com/?p=2050292#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2050292&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/09/tesla-autopilot-and-other-assists-increase-distracted-driving-study-finds/feed/</wfw:commentRss>
+			<slash:comments>13</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Rare woolly rhino mummies emerge from the permafrost</title>
+		<link>https://arstechnica.com/?p=2050239</link>
+					<comments>https://arstechnica.com/science/2024/09/rare-woolly-rhino-mummies-emerge-from-the-permafrost/#comments</comments>
+		
+		<dc:creator><![CDATA[Jeanne Timmons]]></dc:creator>
+		<pubDate>Tue, 17 Sep 2024 14:31:33 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[evolution]]></category>
+		<category><![CDATA[extinction]]></category>
+		<category><![CDATA[mummies]]></category>
+		<category><![CDATA[rhino]]></category>
+		<category><![CDATA[woolly rhino]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2050239</guid>
+
+					<description><![CDATA[The new finds confirm the existence of a feature seen in cave art.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-468920612-2-800x534.jpg" alt="Image of a tan rock surface with black and brown depictions of animals on it.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-468920612-2.jpg" class="enlarge-link" data-height="1670" data-width="2500">Enlarge</a> <span class="sep">/</span> Portion of a reproduction of cave paintings in France, showing rhinos (among other species). (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/detail-of-the-full-scale-reproduction-of-frescos-found-at-news-photo/468920612">JEFF PACHOUD</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>For most people, an extinct species is an abstraction, a set of bones they might have seen on display in a museum. For Gennady Boeskorov, they are things he has interacted with directly, studying their fur, their skin, their internal organs—experiencing these animals much as they existed thousands of years ago. Some of the well-preserved Pleistocene animals he has worked with include the mummified remains of woolly mammoths (<i>Mammuthus primigenius</i>), an extinct form of rabbit (<i>Lepus tanaiticus</i>), and cave lion cubs (<i>Panthera spelaea).</i></p>
+<p>His latest paper also makes it clear that woolly rhinoceroses belong on this list. Boeskorov is a senior researcher at the Diamond and Precious Metals Geology Institute, Siberian Branch of the Russian Academy of Sciences, as well as a professor at the North-Eastern Federal University in Yakutsk. This July, he and his colleagues described the relatively recent discovery of three woolly rhinoceros mummies, one of which is new to science, in a <a href="https://link.springer.com/article/10.1134/S1028334X24602438">paper</a> published in the journal Doklady Earth Sciences.</p>
+<p>Woolly rhinos (<i>Coelodonta antiquitatis</i>) were stocky, long-haired, two-horned denizens that inhabited Eurasia during the Pleistocene, a period that includes the most recent glacial expansion. They coexisted with woolly mammoths, placing second on the list of largest animals in this ecosystem (behind their tusked proboscidean coevals), and shared a similar dense coat of hair to protect against the cold.</p></div><p><a href="https://arstechnica.com/?p=2050239#p3">Read 18 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2050239&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/09/rare-woolly-rhino-mummies-emerge-from-the-permafrost/feed/</wfw:commentRss>
+			<slash:comments>9</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Amazon kills remote working, tells workers to be in office 5 days a week</title>
+		<link>https://arstechnica.com/?p=2050274</link>
+					<comments>https://arstechnica.com/gadgets/2024/09/amazon-kills-remote-working-tells-workers-to-be-in-office-5-days-a-week/#comments</comments>
+		
+		<dc:creator><![CDATA[Financial Times]]></dc:creator>
+		<pubDate>Tue, 17 Sep 2024 13:34:01 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[remote work]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[telecommuting]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2050274</guid>
+
+					<description><![CDATA[Hot-desking is out, assigned floor plans are in.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/01/getty-amazon-warehouse-800x533.jpg" alt="A large Amazon logo seen on the outside of a warehouse building.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/01/getty-amazon-warehouse.jpg" class="enlarge-link" data-height="1414" data-width="2121">Enlarge</a> <span class="sep">/</span> Amazon fulfillment center in Las Vegas, Nevada. (credit: Getty Images | 4kodiak)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Amazon has told staff they must return to the office five days a week from the start of next year, one of the strictest corporate crackdowns on remote working that has become commonplace since the pandemic.</p>
+<p>“We’ve decided that we’re going to return to being in the office the way we were before the onset of COVID,” chief executive Andy Jassy wrote in a memo to employees globally on Monday. “We’ve observed that it’s easier for our teammates to learn, model, practice, and strengthen our culture; collaborating, brainstorming, and inventing are simpler and more effective.</p>
+<p>“Before the pandemic, it was not a given that folks could work remotely two days a week, and that will also be true moving forward,” Jassy said. He added exceptions would be made for employees with a sick child, family emergencies, or coding projects that needed a more isolated environment.</p></div><p><a href="https://arstechnica.com/?p=2050274#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2050274&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/amazon-kills-remote-working-tells-workers-to-be-in-office-5-days-a-week/feed/</wfw:commentRss>
+			<slash:comments>90</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>iOS 18’s new home screen features are a long-awaited win for flexibility</title>
+		<link>https://arstechnica.com/?p=2050070</link>
+					<comments>https://arstechnica.com/gadgets/2024/09/ios-18s-new-home-screen-features-are-a-long-awaited-win-for-flexibility/#comments</comments>
+		
+		<dc:creator><![CDATA[Samuel Axon]]></dc:creator>
+		<pubDate>Tue, 17 Sep 2024 09:00:50 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[home screen]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[ios 18]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2050070</guid>
+
+					<description><![CDATA[Wiggle mode gets an update that opens up almost Android-like customization.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/iOS-18-home-screen-header-800x570.png" alt="Icons on an iPhone home screen all tinted blue">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/iOS-18-home-screen-header.png" class="enlarge-link" data-height="919" data-width="1290">Enlarge</a> <span class="sep">/</span> iOS 18's home screen color tinting and grid-based app icons in action. (credit: Samuel Axon)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Apart from the much-ballyhooed (and delayed) Apple Intelligence, a big change to home screen customization and app icon placement is one of iOS 18’s flagship features, alongside an overhauled Control Center.</p>
+<p>With the public launch of iOS 18 this week, we’ll be delving into those flagship features one by one, and I’m starting with the home screen because I have often criticized the iPhone’s home screen experience in the past. iOS 18 promises the biggest update to home screen customization since, well, ever.</p>
+<p>Let’s walk through how to use the new features, explore how they work, and try to answer the most important question: does the iPhone finally offer the kind of home screen flexibility that users have been asking for?</p></div><p><a href="https://arstechnica.com/?p=2050070#p3">Read 36 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2050070&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/ios-18s-new-home-screen-features-are-a-long-awaited-win-for-flexibility/feed/</wfw:commentRss>
+			<slash:comments>94</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Google backs privately funded satellite constellation for wildfire detection</title>
+		<link>https://arstechnica.com/?p=2050160</link>
+					<comments>https://arstechnica.com/space/2024/09/google-backs-privately-funded-satellite-constellation-for-wildfire-detection/#comments</comments>
+		
+		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
+		<pubDate>Mon, 16 Sep 2024 23:22:37 +0000</pubDate>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[Commercial space]]></category>
+		<category><![CDATA[firesat]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[muon space]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2050160</guid>
+
+					<description><![CDATA["Authorities will have high-resolution imagery that is updated globally every 20 minutes."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-1235418773-800x534.jpg" alt="The Windy Fire blazes through the Long Meadow Grove of giant sequoia trees near The Trail of 100 Giants overnight in Sequoia National Forest on September 21, 2021, near California Hot Springs, California.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-1235418773.jpg" class="enlarge-link" data-height="1201" data-width="1800">Enlarge</a> <span class="sep">/</span> The Windy Fire blazes through the Long Meadow Grove of giant sequoia trees near The Trail of 100 Giants overnight in Sequoia National Forest on September 21, 2021, near California Hot Springs, California. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/the-windy-fire-blazes-through-the-long-meadow-grove-of-news-photo/1235418773?adppopup=true">David McNew/Getty Images</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Space is more accessible than ever thanks to the proliferation of small satellites and more affordable launch prices, which opened the door to bespoke applications like global pollution monitoring, crop observations, and new ways of collecting weather and climate data.</p>
+<p>Now you can add wildfire detection to the list. Satellites have observed wildfires from space for decades, but a new initiative partially funded by Google's philanthropic arm aims to deploy more than 50 small satellites in low-Earth orbit to pinpoint flare-ups as small as a classroom anywhere in the world.</p>
+<p>The FireSat constellation, managed by a nonprofit called Earth Fire Alliance (EFA), will be the first satellite fleet dedicated to detecting and tracking wildfires. Google announced a fresh investment of $13 million in the FireSat constellation Monday, building on the tech giant's previous contributions to support the development of custom infrared sensors for the FireSat satellites.</p></div><p><a href="https://arstechnica.com/?p=2050160#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2050160&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/09/google-backs-privately-funded-satellite-constellation-for-wildfire-detection/feed/</wfw:commentRss>
+			<slash:comments>59</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Ban warnings fly as users dare to probe the “thoughts” of OpenAI’s latest model</title>
+		<link>https://arstechnica.com/?p=2049959</link>
+					<comments>https://arstechnica.com/information-technology/2024/09/openai-threatens-bans-for-probing-new-ai-models-reasoning-process/#comments</comments>
+		
+		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
+		<pubDate>Mon, 16 Sep 2024 22:49:11 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI jailbreak]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[chatgtp]]></category>
+		<category><![CDATA[GPT-3]]></category>
+		<category><![CDATA[GPT-4]]></category>
+		<category><![CDATA[GPT-4o]]></category>
+		<category><![CDATA[hacks]]></category>
+		<category><![CDATA[jailbreak]]></category>
+		<category><![CDATA[jailbreaks]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[o1]]></category>
+		<category><![CDATA[o1-mini]]></category>
+		<category><![CDATA[o1-preview]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[OpenAI o1]]></category>
+		<category><![CDATA[OpenAI Strawberry]]></category>
+		<category><![CDATA[prompt injection]]></category>
+		<category><![CDATA[Riley Goodside]]></category>
+		<category><![CDATA[Simon Willison]]></category>
+		<category><![CDATA[Strawberry]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2049959</guid>
+
+					<description><![CDATA[OpenAI does not want anyone to know what o1 is “thinking" under the hood.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/brain_gears_header-800x450.jpg" alt="An illustration of gears shaped like a brain.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/brain_gears_header.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/brain-gear-mechanism-royalty-free-image/1436010616">Andriy Onufriyenko via Getty Images</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>OpenAI truly does not want you to know what its latest AI model is "thinking." Since the company <a href="https://arstechnica.com/information-technology/2024/09/openais-new-reasoning-ai-models-are-here-o1-preview-and-o1-mini/">launched</a> its "Strawberry" AI model family last week, touting so-called reasoning abilities with o1-preview and o1-mini, OpenAI has been sending out warning emails and threats of bans to any user who tries to probe how the model works.</p>
+
+<p>Unlike previous AI models from OpenAI, such as <a href="https://arstechnica.com/information-technology/2024/05/chatgpt-4o-lets-you-have-real-time-audio-video-conversations-with-emotional-chatbot/">GPT-4o</a>, the company trained o1 specifically to work through a step-by-step problem-solving process before generating an answer. When users ask an "o1" model a question in <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT</a>, users have the option of seeing this chain-of-thought process written out in the ChatGPT interface. However, by design, OpenAI hides the raw chain of thought from users, instead presenting a filtered interpretation created by a second AI model.</p>
+<p>Nothing is more enticing to enthusiasts than information obscured, so the race has been on among hackers and red-teamers to try to uncover o1's raw chain of thought using <a href="https://arstechnica.com/information-technology/2023/10/sob-story-about-dead-grandma-tricks-microsoft-ai-into-solving-captcha/">jailbreaking</a> or <a href="https://arstechnica.com/information-technology/2022/09/twitter-pranksters-derail-gpt-3-bot-with-newly-discovered-prompt-injection-hack/">prompt injection</a> techniques that attempt to trick the model into spilling its secrets. There have been early reports of some successes, but nothing has yet been strongly confirmed.</p></div><p><a href="https://arstechnica.com/?p=2049959#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049959&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/information-technology/2024/09/openai-threatens-bans-for-probing-new-ai-models-reasoning-process/feed/</wfw:commentRss>
+			<slash:comments>112</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Archaeologists believe this Bronze Age board game is the oldest yet found</title>
+		<link>https://arstechnica.com/?p=2048621</link>
+					<comments>https://arstechnica.com/science/2024/09/archaeologists-believe-this-bronze-age-board-game-is-the-oldest-yet-found/#comments</comments>
+		
+		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
+		<pubDate>Mon, 16 Sep 2024 22:30:59 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[ancient board games]]></category>
+		<category><![CDATA[Archaeology]]></category>
+		<category><![CDATA[bronze age]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2048621</guid>
+
+					<description><![CDATA[Origins of <em>Hounds and Jackals</em>, aka <em>Fifty-Eight Holes</em>, may lie in Asia rather than Egypt.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/hounds1-800x534.jpg" alt="The fifty-eight holes board from Çapmalı.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/hounds1.jpg" class="enlarge-link" data-height="801" data-width="1200">Enlarge</a> <span class="sep">/</span> The <em>Fifty-Eight holes</em> board from Çapmalı. (credit: W. Crist et al., 2024)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>An ancient board game known as <em>Hounds and Jackals</em> has long been believed to have originated in Egypt. However, according to <a href="https://www.cambridge.org/core/journals/european-journal-of-archaeology/article/herding-with-the-hounds-the-game-of-fiftyeight-holes-in-the-abseron-peninsula/3D308A06C1EED64BF5BB185B9DCCFBA1">a paper</a> published in the European Journal of Archaeology, a version of the game board found in present-day Azerbaijan might date back even earlier, suggesting that the game originated in Asia.</p>
+<p>As <a href="https://arstechnica.com/science/2022/01/archaeologists-discovered-a-4000-year-old-board-game-at-a-dig-in-oman/">previously reported</a>, there is archaeological evidence for various kinds of <a href="https://www.smithsonianmag.com/science-nature/best-board-games-ancient-world-180974094/" data-uri="25d3ccdcfdc9814858bdc615020464eb">board games from all over the world</a> dating back millennia: <a href="https://en.wikipedia.org/wiki/Senet" data-uri="ac357d4f07f12a0683f0712c046285e9">Senet</a> and <a href="https://en.wikipedia.org/wiki/Mehen_(game)" data-uri="c13883dd8963d560867421355d332c64">Mehen</a> in ancient Egypt, for example, or a strategy game called <em><a href="https://en.wikipedia.org/wiki/Ludus_latrunculorum" data-uri="b910570c895f5c8783b113bd1e12dc92">ludus latrunculorum</a></em> ("game of mercenaries") favored by Roman legions. A 4,000-year-old board discovered last year at an archaeological site in Oman's Qumayrah Valley might be a precursor to an ancient Middle Eastern game known as the <a href="https://en.wikipedia.org/wiki/Royal_Game_of_Ur" data-uri="1e71b13ff94e04052cb76bf5cb418628"><em>Royal Game of Ur</em></a> (or the <em>Game of Twenty Squares</em>), a two-player game that may have been one of the precursors to backgammon (or was replaced in popularity by backgammon). Like backgammon, it's essentially a race game in which players compete to see who can move all their pieces along the board before their opponent.</p>
+<p>Last year, archaeologists <a href="https://arstechnica.com/science/2023/09/archaeologists-find-500-year-old-board-game-carved-in-ruins-of-polish-castle/">discovered</a> a 500-year-old game board in the ruins of <a href="https://en.wikipedia.org/wiki/%C4%86miel%C3%B3w_Castle">Ćmielów Castle</a> in Poland. It was a two-person strategy board game called <em>Mill</em>, also known as <a href="https://en.wikipedia.org/wiki/Nine_men%27s_morris"><em>Nine Men's Morris</em></a>, <em>Merels</em>, or "cowboy checkers" in North America. The earliest-known <em>Mill</em> game board was found carved into the roofing slabs of an Egyptian temple at Kurna, which likely predates the Common Era. Historians believe it was well-known to the Romans, who may have learned of the game through trade routes.</p></div><p><a href="https://arstechnica.com/?p=2048621#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048621&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/09/archaeologists-believe-this-bronze-age-board-game-is-the-oldest-yet-found/feed/</wfw:commentRss>
+			<slash:comments>25</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Secure Boot-neutering PKfail debacle is more prevalent than anyone knew</title>
+		<link>https://arstechnica.com/?p=2050182</link>
+					<comments>https://arstechnica.com/security/2024/09/secure-boot-neutering-pkfail-debacle-is-more-prevalent-than-anyone-knew/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+		<pubDate>Mon, 16 Sep 2024 22:13:12 +0000</pubDate>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[pkfail]]></category>
+		<category><![CDATA[platform keys]]></category>
+		<category><![CDATA[rootkits]]></category>
+		<category><![CDATA[secure boot]]></category>
+		<category><![CDATA[uefi]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2050182</guid>
+
+					<description><![CDATA[Keys were marked "DO NOT TRUST." More devices than previously known used them anyway.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-800x450.jpg" alt="Secure Boot-neutering PKfail debacle is more prevalent than anyone knew">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg" class="enlarge-link" data-height="563" data-width="1000">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>A supply chain failure that compromises Secure Boot protections on computing devices from across the device-making industry extends to a much larger number of models than previously known, including those used in ATMs, point-of-sale terminals, and voting machines.</p>
+<p>The debacle was the result of non-production test platform keys used in hundreds of device models for more than a decade. These cryptographic keys form the root-of-trust anchor between the hardware device and the firmware that runs on it. The test production keys—stamped with phrases such as “DO NOT TRUST” in the certificates—were never intended to be used in production systems. A who's-who list of device makers—including Acer, Dell, Gigabyte, Intel, Supermicro, Aopen, Foremelife, Fujitsu, HP, and Lenovo—used them anyway.</p>
+<h2>Medical devices, gaming consoles, ATMs, POS terminals</h2>
+<p>Platform keys provide the root-of-trust anchor in the form of a cryptographic key embedded into the system firmware. They establish the trust between the platform hardware and the firmware that runs on it. This, in turn, provides the foundation for Secure Boot, an industry standard for cryptographically enforcing security in the pre-boot environment of a device. Built into the UEFI (Unified Extensible Firmware Interface), Secure Boot uses public-key cryptography to block the loading of any code that isn’t signed with a pre-approved digital signature.</p></div><p><a href="https://arstechnica.com/?p=2050182#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2050182&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/security/2024/09/secure-boot-neutering-pkfail-debacle-is-more-prevalent-than-anyone-knew/feed/</wfw:commentRss>
+			<slash:comments>42</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Boar’s Head will never make liverwurst again after outbreak that killed 9</title>
+		<link>https://arstechnica.com/?p=2050174</link>
+					<comments>https://arstechnica.com/science/2024/09/boars-head-will-never-make-liverwurst-again-after-outbreak-that-killed-9/#comments</comments>
+		
+		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
+		<pubDate>Mon, 16 Sep 2024 21:44:49 +0000</pubDate>
+				<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[boar's head]]></category>
+		<category><![CDATA[CDC]]></category>
+		<category><![CDATA[contamination]]></category>
+		<category><![CDATA[deli meat]]></category>
+		<category><![CDATA[listeria]]></category>
+		<category><![CDATA[liverwurst]]></category>
+		<category><![CDATA[outbreak]]></category>
+		<category><![CDATA[USDA]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2050174</guid>
+
+					<description><![CDATA[Indefinitely closed plant rated area with <em>Listeria</em> as "low risk" for <em>Listeria</em>.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2164656717-800x583.jpg" alt="A recall notice is posted next to Boar's Head meats that are displayed at a Safeway store on July 31, 2024, in San Rafael, California.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2164656717-scaled.jpg" class="enlarge-link" data-height="1866" data-width="2560">Enlarge</a> <span class="sep">/</span> A recall notice is posted next to Boar's Head meats that are displayed at a Safeway store on July 31, 2024, in San Rafael, California. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/recall-notice-is-posted-next-to-boars-head-meats-that-are-news-photo/2164656717?adppopup=true">Getty | Justin Sullivan</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The Boar's Head deli-meat plant at the epicenter of a nationwide <em>Listeria </em>outbreak that killed nine people so far harbored the deadly germ in a common area of the facility deemed "low risk" for <em>Listeria.</em> Further, it had no written plans to prevent cross-contamination of the dangerous bacteria to other products and areas. That's according to a<a href="https://boarshead.com/pdf/Boars-Head-NOS-July-2024_view.pdf"> federal document newly released by Boar's Head</a>.</p>
+<p>On Friday, the company announced that it is <a href="https://boarshead.com/products-recall-2024">indefinitely closing that Jarratt, Virginia-based plant</a> and will never again produce liverwurst—the product that Maryland health investigators first identified as the source of the outbreak strain of <em>Listeria monocytogenes</em>. The finding led to the recall of <a href="https://arstechnica.com/science/2024/07/7-million-pounds-of-meat-recalled-amid-deadly-outbreak/">more than 7 million pounds of Boar's Head meat</a>. The Jarratt plant, where the company's liverwurst is made, has been shuttered since late July amid the investigation into how the outbreak occurred.</p>
+<p>In the September 13 update, Boar's Head explained that "our investigation has identified the root cause of the contamination as a specific production process that only existed at the Jarratt facility and was used only for liverwurst. With this discovery, we have decided to permanently discontinue liverwurst."</p></div><p><a href="https://arstechnica.com/?p=2050174#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2050174&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/09/boars-head-will-never-make-liverwurst-again-after-outbreak-that-killed-9/feed/</wfw:commentRss>
+			<slash:comments>141</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>US can’t ban TikTok for security reasons while ignoring Temu, other apps, TikTok argues</title>
+		<link>https://arstechnica.com/?p=2050155</link>
+					<comments>https://arstechnica.com/tech-policy/2024/09/tiktok-ban-poses-staggering-risks-to-americans-free-speech-tiktok-says/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Mon, 16 Sep 2024 21:23:11 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[bytedance]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[data privacy]]></category>
+		<category><![CDATA[data security]]></category>
+		<category><![CDATA[national security]]></category>
+		<category><![CDATA[tiktok]]></category>
+		<category><![CDATA[TikTok ban]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2050155</guid>
+
+					<description><![CDATA[TikTok's survival in the US may depend on an appeals court ruling this December.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2172424134-800x620.jpg" alt="Andrew J. Pincus, attorney for TikTok and ByteDance, leaves the E. Barrett Prettyman US Court House with members of his legal team as the US Court of Appeals hears oral arguments in the case &lt;em&gt;TikTok Inc. v. Merrick Garland&lt;/em&gt; on September 16 in Washington, DC. ">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2172424134.jpg" class="enlarge-link" data-height="793" data-width="1024">Enlarge</a> <span class="sep">/</span> Andrew J. Pincus, attorney for TikTok and ByteDance, leaves the E. Barrett Prettyman US Court House with members of his legal team as the US Court of Appeals hears oral arguments in the case <em>TikTok Inc. v. Merrick Garland</em> on September 16 in Washington, DC.  (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/andrew-j-pincus-attorney-for-tiktok-inc-and-bytedance-ltd-news-photo/2172424134?adppopup=true">Kevin Dietsch / Staff | Getty Images News</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The fight to keep TikTok operating unchanged in the US reached an appeals court Monday, where TikTok and US-based creators teamed up to defend one of the world's most popular apps from <a href="https://arstechnica.com/tech-policy/2024/04/biden-signs-bill-to-ban-tiktok-if-chinese-owner-bytedance-doesnt-sell/">a potential US ban</a>.</p>
+<p>TikTok lawyer Andrew Pincus kicked things off by warning a three-judge panel that a <a href="https://www.congress.gov/bill/118th-congress/house-bill/7521">law</a> targeting foreign adversaries that requires TikTok to divest from its allegedly China-controlled owner, ByteDance, is "unprecedented" and could have "staggering" effects on "the speech of 170 million Americans."</p>
+<p>Pincus argued that the US government was "for the first time in history" attempting to ban speech by a specific US speaker—namely, TikTok US, the US-based entity that allegedly curates the content that Americans see on the app.</p></div><p><a href="https://arstechnica.com/?p=2050155#p3">Read 23 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2050155&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/tiktok-ban-poses-staggering-risks-to-americans-free-speech-tiktok-says/feed/</wfw:commentRss>
+			<slash:comments>102</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Apple software leaks new Mac mini with five USB-C ports ahead of rumored event</title>
+		<link>https://arstechnica.com/?p=2050106</link>
+					<comments>https://arstechnica.com/gadgets/2024/09/report-big-batch-of-m4-macs-and-cheaper-ipads-on-tap-for-october-apple-event/#comments</comments>
+		
+		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
+		<pubDate>Mon, 16 Sep 2024 20:35:57 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[apple m4]]></category>
+		<category><![CDATA[Apple silicon]]></category>
+		<category><![CDATA[ipad]]></category>
+		<category><![CDATA[iPadOS]]></category>
+		<category><![CDATA[m4]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[MacOS]]></category>
+		<category><![CDATA[Macs]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2050106</guid>
+
+					<description><![CDATA[Apple often launches Macs and iPads in October, after the iPhone dust settles.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/IMG_1415-800x533.jpeg" alt="Apple's M3 Max-powered 16-inch MacBook Pro. New Pro laptops and some desktops could be on tap for later this fall.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/IMG_1415.jpeg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> Apple's M3 Max-powered 16-inch MacBook Pro. New Pro laptops and some desktops could be on tap for later this fall. (credit: Andrew Cunningham)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p><a href="https://arstechnica.com/gadgets/2024/09/apples-iphone-16-pro-boasts-bigger-screens-and-a-better-camera-zoom/">Apple's newest iPhones</a> and Apple Watches don't come out until later this week, but the rumor mill is already indicating that Apple is planning a product announcement for October to refresh some of the products that didn't get a mention at the iPhone event. Apple scheduled its release calendar similarly last year, when it announced and released new iPhones in September and then <a href="https://arstechnica.com/gadgets/2023/10/scary-fast-apple-will-stream-a-new-product-event-on-october-30/">launched the first wave of M3 Macs around Halloween</a>.</p>
+
+<p>Bloomberg's Mark Gurman <a href="https://www.bloomberg.com/news/newsletters/2024-09-15/apple-s-hearing-aid-sleep-apnea-saved-iphone-16-event-m4-mac-launch-details-m13kkabb">believes</a> that the event will mainly focus on the first wave of Macs with M4 processors, following the standard M4's introduction in the iPad Pro earlier this year. As he has reported previously, he expects new MacBook Pro models with the M4 and "pro-level M4 chip options," presumably the M4 Pro and M4 Max. He also expects an M4 version of the 24-inch iMac.</p>
+<p>But the most interesting of the new Macs will still be the redesigned Mac mini, which hasn't gotten an M3 update at all and has been using the same basic external design since 2010. This Mac mini is said to be closer in size to the Apple TV than the current mini, but still uses an internal power supply so that owners won't have to wrangle a power brick. At least some of the current device's ports will be replaced by USB-C and/or Thunderbolt ports, something that <a href="https://www.macrumors.com/2024/09/16/mac-mini-5-usb-c-ports-leak/">MacRumors apparently confirmed earlier today</a> when they found a reference to an "Apple silicon Mac mini (5 ports)" in an Apple software update (some of those ports are reportedly on the front of the device, a nice Mac Studio design upgrade that I'd like to see on a new Mac mini).</p></div><p><a href="https://arstechnica.com/?p=2050106#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2050106&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/report-big-batch-of-m4-macs-and-cheaper-ipads-on-tap-for-october-apple-event/feed/</wfw:commentRss>
+			<slash:comments>79</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Brazil judge seizes cash from Starlink to cover fine imposed on Elon Musk’s X</title>
+		<link>https://arstechnica.com/?p=2050108</link>
+					<comments>https://arstechnica.com/tech-policy/2024/09/brazil-judge-seizes-cash-from-starlink-to-cover-fine-imposed-on-elon-musks-x/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Mon, 16 Sep 2024 20:04:00 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[elon musk brazil]]></category>
+		<category><![CDATA[starlink brazil]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2050108</guid>
+
+					<description><![CDATA[Starlink and X treated as one economic group, forcing both to pay X fines.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/bolsonaro-musk-800x533.jpg" alt="A supporter of former Brazil President Jair Bolsonaro holds a sign that has a picture of Elon Musk and the text, " democracy or moraes>
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/bolsonaro-musk.jpg" class="enlarge-link" data-height="1667" data-width="2500">Enlarge</a> <span class="sep">/</span> Supporters of former President Jair Bolsonaro participate in an event in the central area of Sao Paulo, Brazil, on September 7, 2024. Bolsonaro backers called for the impeachment of Supreme Court Justice Alexandre de Moraes. (credit: Getty Images | NurPhoto )</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Brazil seized about $2 million from a Starlink bank account and another $1.3 million from X to collect on fines issued to Elon Musk's social network, the country's Supreme Court <a href="https://noticias.stf.jus.br/postsnoticias/stf-determina-transferencia-de-r-1835-milhoes-bloqueados-da-x-e-da-starlink-para-conta-da-uniao/">announced Friday</a>.</p>
+<p>Supreme Court Judge Alexandre de Moraes previously froze the accounts of both companies, treating them as the same <em>de facto</em> economic group because both are controlled by Musk. The Starlink and X bank accounts were unfrozen last week after the money transfers ordered by de Moraes.</p>
+<p>Two banks carried out orders to transfer the money from Starlink and X to Brazil's government. "After the payment of the full amount that was owed, the justice (de Moraes) considered there was no need to keep the bank accounts frozen and ordered the immediate unfreezing of bank accounts/financial assets," the court said, as <a href="https://apnews.com/article/starling-supreme-court-brazil-afb5262691e02736deda08b8db752718">quoted by The Associated Press</a>.</p></div><p><a href="https://arstechnica.com/?p=2050108#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2050108&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/brazil-judge-seizes-cash-from-starlink-to-cover-fine-imposed-on-elon-musks-x/feed/</wfw:commentRss>
+			<slash:comments>277</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>iOS 18 brings RCS to major carrier iPhones, but prepaid plans are still waiting</title>
+		<link>https://arstechnica.com/?p=2049951</link>
+					<comments>https://arstechnica.com/gadgets/2024/09/ios-18-brings-rcs-to-major-carrier-iphones-but-prepaid-plans-are-still-waiting/#comments</comments>
+		
+		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
+		<pubDate>Mon, 16 Sep 2024 19:57:35 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[google fi]]></category>
+		<category><![CDATA[iMessage]]></category>
+		<category><![CDATA[ios 18]]></category>
+		<category><![CDATA[MMS]]></category>
+		<category><![CDATA[rcs]]></category>
+		<category><![CDATA[SMS]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2049951</guid>
+
+					<description><![CDATA[A future iOS update may be needed to unlock better Apple-to-Android messages.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2055623763-800x534.jpg" alt="Thumb hovering over the Messages app on an iPhone">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2055623763.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> <span class="sep">/</span> Illustration of a person who refuses to check their iPhone's messages until RCS is enabled on their MVNO carrier, out of respect for their Android-toting friends and family. (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The future of inter-OS mobile messaging is here, it's just unevenly distributed.</p>
+<p>With iOS 18, Apple has made it possible for non-Apple phones to message with iPhones through Rich Communication Services (RCS). This grants upgrades from standard SMS text messages, like read receipts, easier and higher-quality media sending, typing indicators, and emoji/response compatibility. More than that, it allows for messaging while on Wi-Fi without cellular services and makes group messages far less painful to navigate and leave. Notably, RCS messages between iPhones and non-iPhones will not be encrypted, like Apple's private iMessage service available exclusively between Apple devices.</p>
+<p>iOS 18 makes these RCS upgrades possible, but certainly not guaranteed, at least as of today. Lots of people have already been enjoying cross-platform RCS messaging when texting with iOS 18 beta users. And iPhones on the big carriers' plans can now trade RCS with Android users. But some iPhone users, particularly on mobile virtual network operators (MVNOs)—typically pre-paid services that do not own network hardware but resell major carrier access—do not have an RCS option available to them yet.</p></div><p><a href="https://arstechnica.com/?p=2049951#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049951&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/ios-18-brings-rcs-to-major-carrier-iphones-but-prepaid-plans-are-still-waiting/feed/</wfw:commentRss>
+			<slash:comments>81</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lexus at its peak—the 2024 RX450h+ is one smooth plug-in hybrid</title>
+		<link>https://arstechnica.com/?p=2050059</link>
+					<comments>https://arstechnica.com/cars/2024/09/lexus-at-its-peak-the-2024-rx450h-is-one-smooth-plug-in-hybrid/#comments</comments>
+		
+		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
+		<pubDate>Mon, 16 Sep 2024 19:28:30 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[car review]]></category>
+		<category><![CDATA[Lexus RX 450h+]]></category>
+		<category><![CDATA[plug-in hybrid SUV]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2050059</guid>
+
+					<description><![CDATA[The plug-in hybrid powertrain is pleasant, but the infotainment can irritate.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/2024-Lexus-RX450h-1-800x600.jpg" alt="A green Lexus RX 450h+">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/2024-Lexus-RX450h-1-scaled.jpg" class="enlarge-link" data-height="1920" data-width="2560">Enlarge</a> <span class="sep">/</span> It's a somewhat pricey plug-in hybrid, but it's also quite competent. (credit: Jonathan Gitlin)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Arguably, some of Lexus' greatest innovations have been in its product strategy as much as any technology to emerge from its R&amp;D labs. When it launched in 1989, it was with the idea that a car could combine Japanese reliability with the luxury and power expected from a big German sedan. A few years later the RX basically invented the crossover category with SUV-like looks but with fewer of the handling compromises.</p>
+<p>I'll be frank—I haven't always jelled with those crossovers. During the last couple of years we tested both the <a href="https://arstechnica.com/cars/2022/12/not-sporty-enough-not-efficient-enough-the-2023-lexus-rx-500h-f-sport/">RX 500h F Sport</a>, which I didn't find that sporty or particularly efficient, and the battery-electric <a href="https://arstechnica.com/cars/2023/05/lexus-2023-rz-450e-disappoints-offering-poor-ev-range-and-a-bumpy-ride/">RZ 450e</a>, which left me very cold. Third time is evidently the charm, because I got on much better with the topic of today's review, the RX 450h+ Luxury, to give it its full name.</p>
+<p>This is Lexus' plug-in hybrid version—the 500h carries a much smaller battery that only recharges as the car drives. In fact, it's the same plug-in hybrid powertrain as that found in the smaller, cheaper NX crossover, combining a 2.5 L four-cylinder gasoline engine and a pair of electric motors fed by an 18.1 kWh lithium-ion battery pack. Total power output is 304 hp (227 kW), but Lexus has declined to publish a combined torque figure or any outputs for the electric motors.</p></div><p><a href="https://arstechnica.com/?p=2050059#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2050059&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/09/lexus-at-its-peak-the-2024-rx450h-is-one-smooth-plug-in-hybrid/feed/</wfw:commentRss>
+			<slash:comments>55</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>UFO 50 is the best retro-gaming homage I’ve ever played</title>
+		<link>https://arstechnica.com/?p=2049997</link>
+					<comments>https://arstechnica.com/gaming/2024/09/ufo-50-is-the-best-retro-gaming-homage-ive-ever-played/#comments</comments>
+		
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+		<pubDate>Mon, 16 Sep 2024 17:30:22 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[retro games]]></category>
+		<category><![CDATA[retro gaming]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2049997</guid>
+
+					<description><![CDATA[Collection of 50 new '80s-era game concepts brims with originality, care, and joy.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/ufo50_keyart-800x450.png" alt="Just some of the inventive character designs included in &lt;em&gt;UFO 50&lt;/em&gt;.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/ufo50_keyart.png" class="enlarge-link" data-height="2160" data-width="3840">Enlarge</a> <span class="sep">/</span> Just some of the inventive character designs included in <em>UFO 50</em>. (credit: Mossmouth)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+If you've spent any time with retro gaming emulators, you're likely familiar with the joy of browsing through a long list of (legally obtained) ROMs and feeling overwhelmed at a wide range of titles you've never even heard of. Picking randomly through such a game list is like wandering through a foreign country, searching for hidden jewels among all the shovelware in the bewildering and wildly imaginative early video game history.
+<p><em>UFO 50</em> captures that feeling perfectly, combining the freewheeling inventiveness of old-school game design with modern refinements and more consistent baseline quality bred over the ensuing decades. The result is an extremely playable love letter to the gaming history that will charm even the most jaded retro game fan.</p>
+<h2>A loving homage</h2>
+<p><em>UFO 50</em> presents itself as a collection of 50 dusty game cartridges made by UFO Soft, a fictional developer that operated from 1982 to 1989. Working through the company's catalog, you'll see evolution in graphics, music, and gameplay design that mirror the ever-changing gaming market of the real-world '80s. You'll also see the same characters, motifs, and credited "developers" appearing over and over again, building a convincing world behind the games themselves.</p>
+<p>The individual games in <em>UFO 50</em> definitely wear their influences on their sleeves, with countless, almost overt homages to specific '80s arcade and console games. But there isn't a single title here that I'd consider a simple clone or knock-off of an old gaming concept; each sub-game brings its own twist or novel idea that makes it feel new.</p></div><p><a href="https://arstechnica.com/?p=2049997#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049997&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/09/ufo-50-is-the-best-retro-gaming-homage-ive-ever-played/feed/</wfw:commentRss>
+			<slash:comments>50</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Also releasing today: New iOS 17, macOS 14 updates for the upgrade-averse</title>
+		<link>https://arstechnica.com/?p=2049998</link>
+					<comments>https://arstechnica.com/gadgets/2024/09/also-releasing-today-new-ios-17-macos-14-updates-for-the-upgrade-averse/#comments</comments>
+		
+		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
+		<pubDate>Mon, 16 Sep 2024 17:23:15 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[ios 18]]></category>
+		<category><![CDATA[ipad]]></category>
+		<category><![CDATA[iPadOS]]></category>
+		<category><![CDATA[iphone]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[MacOS]]></category>
+		<category><![CDATA[macOS 15]]></category>
+		<category><![CDATA[macos sequoia]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2049998</guid>
+
+					<description><![CDATA[Security updates without the headaches for the risk-averse (and bug-averse).]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/09/apple-OSes-2023-800x450.jpg" alt="Also releasing today: New iOS 17, macOS 14 updates for the upgrade-averse">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/09/apple-OSes-2023.jpg" class="enlarge-link" data-height="1080" data-width="1920">Enlarge</a> </p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+
+<p>Today is the official release date for the public versions of iOS 18, iPadOS 18, macOS 15 Sequoia, and a scad of other Apple software updates, the foundation that Apple will use for Apple Intelligence and whatever other features it wants to add between now and next year's Worldwide Developers Conference in June. But for those who value stability and reliability over new features, you may not be excited to update to a new operating system with a version number ending in "0."</p>
+<p>For those of you who prefer to wait for a couple of bugfix updates before installing new stuff, Apple is also releasing security-only updates for a bunch of its (now) last-generation operating systems today. The iOS 17.7, iPadOS 17.7, and macOS 14.7 updates are either available now or should be shortly, along with a security update for 2022's macOS 13 Ventura. An updated version of Safari 18 that runs on both macOS 13 and 14 should be available soon, though as of this writing is doesn't appear to be available yet.</p>
+<p>Apple has historically been pretty good about providing security updates to older macOS releases—you can expect them for about two years after the operating system is replaced by a newer version. But for iOS and iPadOS, the company used to stop updating older versions entirely after releasing a new one. This <a href="https://arstechnica.com/gadgets/2021/09/psa-you-dont-have-to-upgrade-to-ios-15/">changed back in 2021</a>, when Apple decided to start providing some security-only updates to older iOS versions to help people who were worried about installing an all-new potentially buggy OS upgrade.</p></div><p><a href="https://arstechnica.com/?p=2049998#p3">Read 1 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049998&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/also-releasing-today-new-ios-17-macos-14-updates-for-the-upgrade-averse/feed/</wfw:commentRss>
+			<slash:comments>24</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>macOS 15 Sequoia: The Ars Technica review</title>
+		<link>https://arstechnica.com/?p=2048298</link>
+					<comments>https://arstechnica.com/gadgets/2024/09/macos-15-sequoia-the-ars-technica-review/#comments</comments>
+		
+		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
+		<pubDate>Mon, 16 Sep 2024 17:00:28 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[apple intelligence]]></category>
+		<category><![CDATA[Apple silicon]]></category>
+		<category><![CDATA[iMac]]></category>
+		<category><![CDATA[Mac Pro]]></category>
+		<category><![CDATA[Mac Studio]]></category>
+		<category><![CDATA[MacBook Air]]></category>
+		<category><![CDATA[MacBook Pro]]></category>
+		<category><![CDATA[MacOS]]></category>
+		<category><![CDATA[macOS 15]]></category>
+		<category><![CDATA[macos sequoia]]></category>
+		<category><![CDATA[reviews]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2048298</guid>
+
+					<description><![CDATA[Apple Intelligence isn't ready yet. There's still a lot here to like.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/sequoia-light-800x450.jpg" alt="macOS 15 Sequoia: The Ars Technica review">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/sequoia-light.jpg" class="enlarge-link" data-height="1080" data-width="1920">Enlarge</a> (credit: Apple)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The macOS 15 Sequoia update will inevitably be known as "the AI one" in retrospect, introducing, as it does, the first wave of "<a href="https://arstechnica.com/information-technology/2024/06/for-apple-ai-now-stands-for-apple-intelligence-launched-at-wwdc-2024/">Apple Intelligence</a>" features.</p>
+<p>That's funny because none of that stuff is actually ready for the 15.0 release that's coming out today. A lot of it is coming "later this fall" in the 15.1 update, which Apple has been testing <a href="https://arstechnica.com/gadgets/2024/07/you-can-now-try-apple-intelligence-in-the-ios-macos-developer-beta/">entirely separately</a> from the 15.0 betas for weeks now. Some of it won't be ready until after <em>that</em>—rumors say image generation won't be ready until the end of the year—but in any case, none of it is ready for public consumption yet.</p>
+
+<p>But the AI-free 15.0 release does give us a chance to evaluate all of the non-AI additions to macOS this year. Apple Intelligence is sucking up a lot of the media oxygen, but in most other ways, this is a typical 2020s-era macOS release, with one or two headliners, several quality-of-life tweaks, and some sparsely documented under-the-hood stuff that will subtly change how you experience the operating system.</p></div><p><a href="https://arstechnica.com/?p=2048298#p3">Read 214 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048298&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/macos-15-sequoia-the-ars-technica-review/feed/</wfw:commentRss>
+			<slash:comments>149</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mice made transparent with a dye used in Doritos</title>
+		<link>https://arstechnica.com/?p=2049741</link>
+					<comments>https://arstechnica.com/science/2024/09/mice-made-transparent-with-a-dye-used-in-doritos/#comments</comments>
+		
+		<dc:creator><![CDATA[Jacek Krywko]]></dc:creator>
+		<pubDate>Mon, 16 Sep 2024 16:58:39 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[biochemistry]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[optics]]></category>
+		<category><![CDATA[refractive index]]></category>
+		<category><![CDATA[transparency]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2049741</guid>
+
+					<description><![CDATA[Matching refractive indexes lets some wavelengths pass cleanly through the skin.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/image-3-800x533.jpeg" alt="Zihao Ou, who helped develop this solution, holds a tube of it.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/image-3.jpeg" class="enlarge-link" data-height="1280" data-width="1920">Enlarge</a> <span class="sep">/</span> Zihao Ou, who helped develop this solution, holds a tube of it. </p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>One key challenge in medical imaging is to look past skin and other tissue that are opaque to see internal organs and structures. This is the reason we need things like ultrasonography, magnetic resonance, or X-rays. There are chemical clearing agents that can make tissue transparent, like acrylamide or tetrahydrofuran, but they are almost never used in living organisms because they’re either highly toxic or can dissolve away essential biomolecules.</p>
+<p>But now, a team of Stanford University scientists has finally found an agent that can reversibly make skin transparent without damaging it. This agent was tartrazine, a popular yellow-orange food dye called FD&amp;C Yellow 5 that is notably used for coloring Doritos.</p>
+<h2>Playing with light</h2>
+<p>We can’t see through the skin because it is a complex tissue comprising aqueous-based components such as cell interiors and other fluids, as well as protein and lipids. The refractive index is a value that indicates how much light slows down (on average, of course) while going through a material compared to going through a vacuum. The refractive index of those aqueous components is low, while the refractive index of the proteins and lipids is high. As a result, light traveling through skin constantly bends as it endlessly crosses the boundary between high and low refractive index materials.</p></div><p><a href="https://arstechnica.com/?p=2049741#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049741&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/09/mice-made-transparent-with-a-dye-used-in-doritos/feed/</wfw:commentRss>
+			<slash:comments>69</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>DirecTV and Disney end blackout, claim they will offer better channel packages</title>
+		<link>https://arstechnica.com/?p=2049969</link>
+					<comments>https://arstechnica.com/tech-policy/2024/09/directv-and-disney-end-blackout-claim-they-will-offer-better-channel-packages/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Mon, 16 Sep 2024 16:03:54 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[directv disney blackout]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2049969</guid>
+
+					<description><![CDATA[Companies promise "more flexible options" for channel and streaming packages.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/espn-nfl-camera-800x533.jpg" alt="An ESPN Monday Night Football NFL logo seen on a TV camera during a game between the San Francisco 49ers and Baltimore Ravens.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/espn-nfl-camera.jpg" class="enlarge-link" data-height="1667" data-width="2500">Enlarge</a> <span class="sep">/</span> TV camera during a game between the San Francisco 49ers and Baltimore Ravens on December 25, 2023 in Santa Clara, California.  (credit: Getty Images | Robin Alam/ISI Photos )</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>DirecTV and Disney agreed to a new distribution contract on Saturday, ending a <a href="https://arstechnica.com/tech-policy/2024/09/tv-viewers-get-screwed-again-as-disney-channels-are-blacked-out-on-directv/">two-week blackout</a> during which DirecTV subscribers lost access to ABC, ESPN, and other Disney-owned channels. A <a href="https://thewaltdisneycompany.com/directv-disney-reach-agreement-in-principle/">joint announcement</a> said the companies reached an agreement in principle and that "Disney's full linear suite of networks has been restored to DirecTV, DirecTV Stream and U-verse customers while both parties work to finalize a new, multi-year contract."</p>
+<p>While Disney previously accused DirecTV of "undervaluing" its content, DirecTV said during the blackout that it was seeking flexibility to sell slimmed-down channel packages that don't force customers to buy channels they don't want. The joint announcement of the resolution said the new deal "provides greater choice, value, and flexibility to [the companies'] mutual customers."</p>
+<p>The deal includes ABC and ESPN networks, Disney-branded channels, Freeform, FX networks, and National Geographic channels. DirecTV will be able to "offer multiple genre-specific options—sports, entertainment, kids &amp; family—inclusive of Disney's linear networks along with Disney+, Hulu and ESPN+," the companies said.</p></div><p><a href="https://arstechnica.com/?p=2049969#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049969&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/directv-and-disney-end-blackout-claim-they-will-offer-better-channel-packages/feed/</wfw:commentRss>
+			<slash:comments>43</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

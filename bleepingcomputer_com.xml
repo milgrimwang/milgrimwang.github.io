@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:atom="http://www.w3.org/2005/Atom"
+        >
+
+<channel>
+        <title>BleepingComputer</title>
+
+        <link>https://www.bleepingcomputer.com/</link>
+        <description>BleepingComputer - All Stories</description>
+        <pubDate>Tue, 17 Sep 2024 13:10:05 EDT</pubDate>
+        <generator>https://www.bleepingcomputer.com/</generator>
+        <language>en</language>
+        <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
+	
+ <item>
+        <title>CISA urges software devs to weed out XSS vulnerabilities</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-urges-software-devs-to-weed-out-xss-vulnerabilities/</link>
+        <pubDate>Tue, 17 Sep 2024 12:39:42 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-urges-software-devs-to-weed-out-xss-vulnerabilities/</guid>
+	<description><![CDATA[CISA and the FBI urged tech companies to review their software and eliminate cross-site scripting (XSS) vulnerabilities before shipping. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Ransomware gangs now abuse Microsoft Azure tool for data theft</title>
+        <link>https://www.bleepingcomputer.com/news/security/ransomware-gangs-now-abuse-microsoft-azure-tool-for-data-theft/</link>
+        <pubDate>Tue, 17 Sep 2024 12:14:59 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Cloud]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ransomware-gangs-now-abuse-microsoft-azure-tool-for-data-theft/</guid>
+	<description><![CDATA[Ransomware gangs like BianLian and Rhysida increasingly use Microsoft's Azure Storage Explorer and AzCopy to steal data from breached networks and store it in Azure Blob storage. [...]]]></description>
+ </item>
+
+ <item>
+        <title>PKfail Secure Boot bypass remains a significant risk two months later</title>
+        <link>https://www.bleepingcomputer.com/news/security/pkfail-secure-boot-bypass-remains-a-significant-risk-two-months-later/</link>
+        <pubDate>Tue, 17 Sep 2024 09:32:09 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Hardware]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/pkfail-secure-boot-bypass-remains-a-significant-risk-two-months-later/</guid>
+	<description><![CDATA[Roughly nine percent of tested firmware images use non-production cryptographic keys that are publicly known or leaked in data breaches, leaving many Secure Boot devices vulnerable to UEFI bootkit malware attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Over 1,000 ServiceNow instances found leaking corporate KB data</title>
+        <link>https://www.bleepingcomputer.com/news/security/over-1-000-servicenow-instances-found-leaking-corporate-kb-data/</link>
+        <pubDate>Tue, 17 Sep 2024 05:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/over-1-000-servicenow-instances-found-leaking-corporate-kb-data/</guid>
+	<description><![CDATA[Over 1,000 misconfigured ServiceNow enterprise instances were found exposing Knowledge Base (KB) articles that contained sensitive corporate information to external users and potential threat actors. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft fixes bug crashing Microsoft 365 apps when typing</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-crashing-microsoft-365-apps-when-typing/</link>
+        <pubDate>Mon, 16 Sep 2024 17:09:05 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-crashing-microsoft-365-apps-when-typing/</guid>
+	<description><![CDATA[​Microsoft has fixed a known issue that causes Microsoft 365 apps like Outlook, Word, Excel, and OneNote to crash while typing or spell-checking a text. [...]]]></description>
+ </item>
+
+ <item>
+        <title>CISA warns of Windows flaw used in infostealer malware attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-windows-flaw-used-in-infostealer-malware-attacks/</link>
+        <pubDate>Mon, 16 Sep 2024 15:53:34 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-windows-flaw-used-in-infostealer-malware-attacks/</guid>
+	<description><![CDATA[​CISA has ordered U.S. federal agencies to secure their systems against a recently patched Windows MSHTML spoofing zero-day bug exploited by the Void Banshee APT hacking group. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Exploit code released for critical Ivanti RCE flaw, patch now</title>
+        <link>https://www.bleepingcomputer.com/news/security/exploit-code-released-for-critical-ivanti-rce-flaw-patch-now/</link>
+        <pubDate>Mon, 16 Sep 2024 15:08:22 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/exploit-code-released-for-critical-ivanti-rce-flaw-patch-now/</guid>
+	<description><![CDATA[A proof-of-concept (PoC) exploit for CVE-2024-29847, a critical remote code execution (RCE) vulnerability in Ivanti Endpoint Manager, is now publicly released, making it crucial to update devices. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft rolls out Office LTSC 2024 for Windows and Mac</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-office-ltsc-2024-for-windows-and-mac/</link>
+        <pubDate>Mon, 16 Sep 2024 13:58:27 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-office-ltsc-2024-for-windows-and-mac/</guid>
+	<description><![CDATA[​Microsoft has announced that Office LTSC (Long Term Servicing Channel) 2024, a volume-licensed and perpetual version of Office for Windows and macOS users, is now available for commercial and government customers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>US cracks down on spyware vendor Intellexa with more sanctions</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-cracks-down-on-spyware-vendor-intellexa-with-more-sanctions/</link>
+        <pubDate>Mon, 16 Sep 2024 12:33:09 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-cracks-down-on-spyware-vendor-intellexa-with-more-sanctions/</guid>
+	<description><![CDATA[Today, the U.S. Department of the Treasury has sanctioned five executives and one entity linked to the Intellexa Consortium for developing and distributing Predator commercial spyware. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Chrome switching to NIST-approved ML-KEM quantum encryption</title>
+        <link>https://www.bleepingcomputer.com/news/security/chrome-switching-to-nist-approved-ml-kem-quantum-encryption/</link>
+        <pubDate>Mon, 16 Sep 2024 12:22:41 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/chrome-switching-to-nist-approved-ml-kem-quantum-encryption/</guid>
+	<description><![CDATA[Google announced updates in the post-quantum cryptographic key encapsulation mechanism used in the Chrome browser, specifically, the swap of Kyber used in hybrid key exchanges with Module Lattice Key Encapsulation Mechanism (ML-KEM). [...]]]></description>
+ </item>
+
+ <item>
+        <title>D-Link fixes critical RCE, hardcoded password flaws in WiFi 6 routers</title>
+        <link>https://www.bleepingcomputer.com/news/security/d-link-fixes-critical-rce-hardcoded-password-flaws-in-wifi-6-routers/</link>
+        <pubDate>Mon, 16 Sep 2024 10:24:54 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Hardware]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/d-link-fixes-critical-rce-hardcoded-password-flaws-in-wifi-6-routers/</guid>
+	<description><![CDATA[D-Link has fixed critical vulnerabilities in three popular wireless router models that allow remote attackers to execute arbitrary code or access the devices using hardcoded credentials. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows vulnerability abused braille “spaces” in zero-day attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/windows-vulnerability-abused-braille-spaces-in-zero-day-attacks/</link>
+        <pubDate>Sun, 15 Sep 2024 14:16:17 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/windows-vulnerability-abused-braille-spaces-in-zero-day-attacks/</guid>
+	<description><![CDATA[A recently fixed "Windows MSHTML spoofing vulnerability" tracked under CVE-2024-43461 is now marked as previously exploited after it was used in attacks by the Void Banshee APT hacking group. [...]]]></description>
+ </item>
+
+</channel>
+</rss>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:admin="http://webns.net/mvcb/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+>
+
+<channel rdf:about="https://slashdot.org/">
+<title>Slashdot</title>
+<link>https://slashdot.org/</link>
+<description>News for nerds, stuff that matters</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright Slashdot Media. All Rights Reserved.</dc:rights>
+<dc:date>2024-09-17T17:03:21+00:00</dc:date>
+<dc:publisher>Slashdot Media</dc:publisher>
+<dc:creator>feedback@slashdot.org</dc:creator>
+<dc:subject>Technology</dc:subject>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="https://news.slashdot.org/story/24/09/17/1631214/fdic-unveils-rule-forcing-banks-to-keep-fintech-customer-data-in-aftermath-of-synapse-debacle?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://mobile.slashdot.org/story/24/09/17/1546226/demand-for-high-end-cameras-is-soaring?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://news.slashdot.org/story/24/09/17/157254/uk-business-secretary-says-right-to-work-from-home-boosts-productivity?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://slashdot.org/story/24/09/17/1447222/china-wants-red-flags-on-all-ai-generated-content-posted-online?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://news.slashdot.org/story/24/09/17/1357242/in-us-v-google-youtubes-ceo-defends-the-google-way?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://politics.slashdot.org/story/24/09/17/0449227/the-trumps-have-gone-full-crypto-with-world-liberty-financial?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://it.slashdot.org/story/24/09/17/0455248/chrome-switching-to-nist-approved-ml-kem-quantum-encryption?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://news.slashdot.org/story/24/09/17/0442204/google-backs-privately-funded-satellite-constellation-for-wildfire-detection?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://news.slashdot.org/story/24/09/16/2226243/ai-pioneers-call-for-protections-against-catastrophic-risks?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://yro.slashdot.org/story/24/09/16/2221244/former-moviepass-ceo-mitch-lowe-pleads-guilty-to-securities-fraud-conspiracy?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://slashdot.org/story/24/09/16/2214216/intel-plans-to-turn-foundry-business-into-subsidiary-allow-for-outside-funding?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://science.slashdot.org/story/24/09/16/227236/apple-watch-sleep-apnea-detection-gets-fda-approval?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/24/09/16/2114245/usps-long-awaited-mail-truck-makes-its-debut-to-rave-reviews-from-carriers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://developers.slashdot.org/story/24/09/16/213256/ellison-declares-oracle-all-in-on-ai-mass-surveillance?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://apple.slashdot.org/story/24/09/16/2057240/ios-18-rolling-out-rcs-to-the-iphone-for-better-android-messaging?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="https://a.fsdn.com/sd/topics/topicslashdot.gif" />
+<textinput rdf:resource="https://slashdot.org/search.pl" />
+</channel>
+<image rdf:about="https://a.fsdn.com/sd/topics/topicslashdot.gif">
+<title>Slashdot</title>
+<url>https://a.fsdn.com/sd/topics/topicslashdot.gif</url>
+<link>https://slashdot.org/</link>
+</image>
+<item rdf:about="https://news.slashdot.org/story/24/09/17/1631214/fdic-unveils-rule-forcing-banks-to-keep-fintech-customer-data-in-aftermath-of-synapse-debacle?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>FDIC Unveils Rule Forcing Banks To Keep Fintech Customer Data in Aftermath of Synapse Debacle</title>
+<link>https://news.slashdot.org/story/24/09/17/1631214/fdic-unveils-rule-forcing-banks-to-keep-fintech-customer-data-in-aftermath-of-synapse-debacle?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>The Federal Deposit Insurance Corp. on Tuesday proposed a new rule forcing banks to keep detailed records for customers of fintech apps after the failure of tech firm Synapse resulted in thousands of Americans being locked out of their accounts. From a report: The rule, aimed at accounts opened by fintech firms that partner with banks, would make the institution maintain records of who owns it and the daily balances attributed to the owner, according to an FDIC memo. Fintech apps often lean on a practice where many customers&amp;#226;(TM) funds are pooled into a single large account at a bank, which relies on either the fintech or a third party to maintain ledgers of transactions and ownership. 
+
+That situation exposed customers to the risk that the nonbanks involved would keep shoddy or incomplete records, making it hard to determine who to pay out in the event of a failure. That's what happened in the Synapse collapse, which impacted more than 100,000 users of fintech apps including Yotta and Juno. Customers with funds in these "for benefit of" accounts have been unable to access their money since May.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=FDIC+Unveils+Rule+Forcing+Banks+To+Keep+Fintech+Customer+Data+in+Aftermath+of+Synapse+Debacle%3A+https%3A%2F%2Fnews.slashdot.org%2Fstory%2F24%2F09%2F17%2F1631214%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F24%2F09%2F17%2F1631214%2Ffdic-unveils-rule-forcing-banks-to-keep-fintech-customer-data-in-aftermath-of-synapse-debacle%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/24/09/17/1631214/fdic-unveils-rule-forcing-banks-to-keep-fintech-customer-data-in-aftermath-of-synapse-debacle?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23457629&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2024-09-17T16:42:00+00:00</dc:date>
+<dc:subject>business</dc:subject>
+<slash:department>how-about-that</slash:department>
+<slash:section>news</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://mobile.slashdot.org/story/24/09/17/1546226/demand-for-high-end-cameras-is-soaring?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Demand For High-End Cameras is Soaring</title>
+<link>https://mobile.slashdot.org/story/24/09/17/1546226/demand-for-high-end-cameras-is-soaring?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Luxury camera maker Leica Camera reported record sales in 2023, defying the global decline in digital camera demand. The German company's Q3 model, priced at $6,000, saw six-month waiting lists upon release last year. Industry data shows premium camera sales are surging as smartphone photography dominates the consumer market, Economist writes. 
+
+The Camera and Imaging Products Association reports the average camera price has tripled in six years as manufacturers shift focus to high-end models. Fujifilm's X100 series, launched in February at $1,600, is sold out and commanding higher prices on secondary markets. Nikon and other brands are following suit, prioritizing premium offerings. From a report: In a Japanese interview with Yomiuri, Nikon's president, Muneaki Tokunari, acknowledged that while smartphones harmed overall sales of digital interchangeable lens cameras, they may contribute to the demand for high-end cameras. Not many years removed from dire straits, Tokunari also outlined Nikon's ambitious expansion plans, including its recent acquisition of RED Digital Cinema. 
+
+Tokunari says that many camera businesses were recently operating at a loss and that some competitors excited the photo business altogether. This was, unsurprisingly, driven in large part by the massive growth of the smartphone market and the improving quality of smartphone cameras, which reached the "good enough" stage the late Steve Jobs predicted years before the camera industry felt the sting of smartphones. 
+
+However, "We are now in an age where smartphones and digital cameras can coexist," Tokunari explains in the machine-translated Yomiuri interview, initially spotted by Digicame-Info. "Global sales of digital cameras have fallen to one-twentieth of their peak. However, domestic companies are doing well. The top five companies hold most of the world's market share. This is a rare example in Japanese industry."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Demand+For+High-End+Cameras+is+Soaring%3A+https%3A%2F%2Fmobile.slashdot.org%2Fstory%2F24%2F09%2F17%2F1546226%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fmobile.slashdot.org%2Fstory%2F24%2F09%2F17%2F1546226%2Fdemand-for-high-end-cameras-is-soaring%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mobile.slashdot.org/story/24/09/17/1546226/demand-for-high-end-cameras-is-soaring?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23457583&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2024-09-17T16:01:00+00:00</dc:date>
+<dc:subject>it</dc:subject>
+<slash:department>narrative-violation</slash:department>
+<slash:section>mobile</slash:section>
+<slash:comments>20</slash:comments>
+<slash:hit_parade>20,20,17,17,1,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://news.slashdot.org/story/24/09/17/157254/uk-business-secretary-says-right-to-work-from-home-boosts-productivity?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>UK Business Secretary Says Right To Work From Home Boosts Productivity</title>
+<link>https://news.slashdot.org/story/24/09/17/157254/uk-business-secretary-says-right-to-work-from-home-boosts-productivity?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Bruce66423 writes: Allowing flexible working and working from home creates a more productive, loyal workforce, the business secretary has said. In an interview with the Times, Jonathan Reynolds said employers "need to judge people on outcomes and not a culture of presenteeism." Labour is poised to unveil its Employment Rights Bill, which includes measures such as a right to "disconnect" outside working hours, a ban on zero-hours contracts and allowing workers to compress their contracted hours into fewer working days. 
+
+Business groups have raised concerns about the plans, warning it could push up the cost of hiring staff and have the unintended consequence of ending overtime. However, Reynolds said Labour's plans to address workers' rights should not be alarming for business leaders. Since April, workers have had the right -- introduced under the previous government -- to ask for flexible working as soon as they start a job, but firms do not have to agree.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=UK+Business+Secretary+Says+Right+To+Work+From+Home+Boosts+Productivity%3A+https%3A%2F%2Fnews.slashdot.org%2Fstory%2F24%2F09%2F17%2F157254%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F24%2F09%2F17%2F157254%2Fuk-business-secretary-says-right-to-work-from-home-boosts-productivity%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/24/09/17/157254/uk-business-secretary-says-right-to-work-from-home-boosts-productivity?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23457535&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2024-09-17T15:25:00+00:00</dc:date>
+<dc:subject>uk</dc:subject>
+<slash:department>how-about-that</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>10</slash:comments>
+<slash:hit_parade>10,10,8,6,0,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://slashdot.org/story/24/09/17/1447222/china-wants-red-flags-on-all-ai-generated-content-posted-online?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>China Wants Red Flags on All AI-generated Content Posted Online</title>
+<link>https://slashdot.org/story/24/09/17/1447222/china-wants-red-flags-on-all-ai-generated-content-posted-online?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>China's internet regulator has proposed a strict regime that will, if adopted, require digital platforms to label content created by AI. From a report: The Cyberspace Administration of China announced its draft plan, which will require platforms and online service providers to label all AI-generated material with a visible logo and with metadata embedded in relevant files. The draft proposes that logos appear in several locations in a text, image, video, or audio file. In audio files, Beijing wants a voice prompt to inform listeners about AI-generated content at the start and end of a file -- and, as appropriate, mid-file too. Software that plays audio files will also need to inform netizens when they tune in to AI content. 
+
+Video players can get away with just posting notices about the content at the start, end, and relevant moments during a clip. Netizens who post AI-generated content will be required to label it as such. If they use generation tools provided by a platform, they'll be required to identify themselves -- and a log of their activities will be retained for six months. Some labels denoting AI-made content will be applied dynamically, based on metadata embedded in AI-generated content.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=China+Wants+Red+Flags+on+All+AI-generated+Content+Posted+Online%3A+https%3A%2F%2Fslashdot.org%2Fstory%2F24%2F09%2F17%2F1447222%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fslashdot.org%2Fstory%2F24%2F09%2F17%2F1447222%2Fchina-wants-red-flags-on-all-ai-generated-content-posted-online%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://slashdot.org/story/24/09/17/1447222/china-wants-red-flags-on-all-ai-generated-content-posted-online?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23457509&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2024-09-17T14:47:00+00:00</dc:date>
+<dc:subject>china</dc:subject>
+<slash:department>how-about-that</slash:department>
+<slash:section>slashdot</slash:section>
+<slash:comments>27</slash:comments>
+<slash:hit_parade>27,27,24,22,5,2,2</slash:hit_parade>
+</item>
+<item rdf:about="https://news.slashdot.org/story/24/09/17/1357242/in-us-v-google-youtubes-ceo-defends-the-google-way?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>In US v. Google, YouTube's CEO Defends the Google Way</title>
+<link>https://news.slashdot.org/story/24/09/17/1357242/in-us-v-google-youtubes-ceo-defends-the-google-way?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Google's acquisition strategy in online advertising has come under scrutiny in the U.S. antitrust trial against the tech giant. Neal Mohan, YouTube CEO and former Google ad executive, defended the company's purchases of DoubleClick and Admeld, saying they were aimed at competing, not neutralizing rivals. 
+
+The Justice Department alleges Google built an impenetrable ad empire by owning key parts of the ad tech stack, stifling competition. Prosecutors pointed to internal emails discussing "parking" acquired companies, which they argue shows intent to sideline competitors. Mohan countered that "parking" meant allowing acquired firms to operate independently while integrating with Google's technology.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=In+US+v.+Google%2C+YouTube's+CEO+Defends+the+Google+Way%3A+https%3A%2F%2Fnews.slashdot.org%2Fstory%2F24%2F09%2F17%2F1357242%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F24%2F09%2F17%2F1357242%2Fin-us-v-google-youtubes-ceo-defends-the-google-way%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/24/09/17/1357242/in-us-v-google-youtubes-ceo-defends-the-google-way?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23457461&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2024-09-17T14:00:00+00:00</dc:date>
+<dc:subject>youtube</dc:subject>
+<slash:department>how-about-that</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>21</slash:comments>
+<slash:hit_parade>21,21,21,20,6,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://politics.slashdot.org/story/24/09/17/0449227/the-trumps-have-gone-full-crypto-with-world-liberty-financial?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>The Trumps Have Gone Full Crypto With World Liberty Financial</title>
+<link>https://politics.slashdot.org/story/24/09/17/0449227/the-trumps-have-gone-full-crypto-with-world-liberty-financial?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>An anonymous reader quotes a report from Wired: Eric and Donald Trump Jr., the sons of former president Donald Trump, have pledged to "make finance great again" with a new family-run crypto endeavor called World Liberty Financial. Introduced in a meandering livestream on X Monday, the Trump family and their associates described World Liberty Financial as a crypto platform that would let users conduct transactions without a bank sitting in the middle and extracting fees -- a concept known as decentralized finance, or DeFi. While short on details, Donald Trump, Jr. and Eric Trump both stressed repeatedly that World Liberty Financial's primary goal was to make DeFi more broadly accessible. "It's truly our job to make it understandable," said Eric Trump during the livestream. "We have to make it intuitive, we have to make it user-friendly, and we will." Former President Donald Trump joined the call as well, stressing his pro-crypto stance. "I do believe in it," said Trump of cryptocurrency generally. "It has a chance to really be something special."
+ 
+The Trumps aren't alone in leading World Liberty Financial. They're joined by crypto veterans Chase Herro and Zak Folkman, as well as Steve Witkoff, a real estate investor and friend of Donald Trump's. In addition to the platform itself, World Liberty Financial will come with a governance token, WLFI, which will provide owners the right to vote "on matters of the platform." Approximately 63 percent of the tokens will be sold to the public; 17 percent are set aside for user rewards, and 20 percent will be reserved for World Liberty Financial team compensation. [...] World Liberty Financial will face steep competition in a DeFi market already crowded with similar services, among them Aave, Compound, Venus Protocol, and others. "DeFi is pretty mature, especially on the over-collateralized side," says Zach Hamilton, founder of crypto startup Sarcophagus and venture partner at VC firm Venture51. But the Trumps need not necessarily do anything novel, if they can capitalize on their mammoth public platform to peddle the new venture. "[World Liberty Financial] is launching with the most free marketing that any crypto company could ever get," says Hamilton. "Trump is the king of living rent free in people's minds." "I welcome any effort to bring DeFi into the mainstream," says Brad Harrison, CEO of Venus Protocol. "But like the autopilot in a Tesla, DeFi may give the appearance of something that's simple, but the inner workings are complex. Without a solid grasp of its nuances in the hands of seasoned technologists and financial engineers, a new platform risks being more of a branding exercise than a substantive and safe contribution to the space."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=The+Trumps+Have+Gone+Full+Crypto+With+World+Liberty+Financial%3A+https%3A%2F%2Fpolitics.slashdot.org%2Fstory%2F24%2F09%2F17%2F0449227%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fpolitics.slashdot.org%2Fstory%2F24%2F09%2F17%2F0449227%2Fthe-trumps-have-gone-full-crypto-with-world-liberty-financial%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://politics.slashdot.org/story/24/09/17/0449227/the-trumps-have-gone-full-crypto-with-world-liberty-financial?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23457051&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-09-17T13:00:00+00:00</dc:date>
+<dc:subject>bitcoin</dc:subject>
+<slash:department>details-coming-later</slash:department>
+<slash:section>politics</slash:section>
+<slash:comments>63</slash:comments>
+<slash:hit_parade>63,62,56,51,26,11,7</slash:hit_parade>
+</item>
+<item rdf:about="https://it.slashdot.org/story/24/09/17/0455248/chrome-switching-to-nist-approved-ml-kem-quantum-encryption?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Chrome Switching To NIST-Approved ML-KEM Quantum Encryption</title>
+<link>https://it.slashdot.org/story/24/09/17/0455248/chrome-switching-to-nist-approved-ml-kem-quantum-encryption?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Google is updating the post-quantum cryptography in Chrome, replacing the experimental Kyber with the fully standardized Module Lattice Key Encapsulation Mechanism (ML-KEM) to enhance protection against quantum computing attacks. BleepingComputer reports: This change comes roughly five months after Google rolled out the post-quantum secure TLS key encapsulation system on Chrome stable for all users, which also caused some problems with TLS exchanges. The move from Kyber to ML-KEM though is not related to those early problems, that got resolved soon after manifesting. Rather, its a strategic choice to abandon an experimental system for a NIST-approved and fully standardized mechanism.
+ 
+ML-KEM was fully endorsed by the U.S. National Institute of Standards and Technology (NIST) in mid-August, with the agency publishing the complete technical specifications of the final version at the time. Google explains that despite the technical changes from Kyber to ML-KEM being minor, the two are essentially incompatible, so a switch had to be made. "The changes to the final version of ML-KEM make it incompatible with the previously deployed version of Kyber," explains Google. "As a result, the codepoint in TLS for hybrid post-quantum key exchange is changing from 0x6399 for Kyber768+X25519, to 0x11EC for ML-KEM768+X25519."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Chrome+Switching+To+NIST-Approved+ML-KEM+Quantum+Encryption%3A+https%3A%2F%2Fit.slashdot.org%2Fstory%2F24%2F09%2F17%2F0455248%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fit.slashdot.org%2Fstory%2F24%2F09%2F17%2F0455248%2Fchrome-switching-to-nist-approved-ml-kem-quantum-encryption%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://it.slashdot.org/story/24/09/17/0455248/chrome-switching-to-nist-approved-ml-kem-quantum-encryption?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23457059&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-09-17T10:00:00+00:00</dc:date>
+<dc:subject>encryption</dc:subject>
+<slash:department>quantum-proofing</slash:department>
+<slash:section>it</slash:section>
+<slash:comments>32</slash:comments>
+<slash:hit_parade>32,32,27,24,8,3,1</slash:hit_parade>
+</item>
+<item rdf:about="https://news.slashdot.org/story/24/09/17/0442204/google-backs-privately-funded-satellite-constellation-for-wildfire-detection?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Google Backs Privately Funded Satellite Constellation For Wildfire Detection</title>
+<link>https://news.slashdot.org/story/24/09/17/0442204/google-backs-privately-funded-satellite-constellation-for-wildfire-detection?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Google's philanthropic arm is partially funding a new initiative that "aims to deploy more than 50 small satellites in low-Earth orbit to pinpoint flare-ups as small as a classroom anywhere in the world," reports Ars Technica. From the report: The FireSat constellation, managed by a nonprofit called Earth Fire Alliance (EFA), will be the first satellite fleet dedicated to detecting and tracking wildfires. Google announced a fresh investment of $13 million in the FireSat constellation Monday, building on the tech giant's previous contributions to support the development of custom infrared sensors for the FireSat satellites. Google's funding commitment will maintain the schedule for the launch of the first FireSat pathfinder satellite next year, EFA said. The first batch of satellites to form an operational constellation could launch in 2026.
+ 
+The FireSat satellites will be built by Muon Space, a California-based satellite manufacturing startup. Each of the Muon Space-built microsatellites will have six-band multispectral infrared instruments, eyeing a swath of Earth some 900 miles (1,500 kilometers) wide, to pinpoint hotspots from wildfires. The satellites will have the sensitivity to find wildfires as small as 16 by 16 feet (5 by 5 meters). The network will use Google AI to rapidly compare observations ofany area of this size with previous imagery to determine if there is a fire, according to Google. AI will also take into account factors like nearby infrastructure and local weather in each fire assessment.
+ 
+Google said it validated its detection model for smaller fires and established a baseline dataset for the AI by flying sensors over controlled burns. FireSat's partners announced the constellation in May after five years of development. The Environmental Defense Fund, the Moore Foundation, and the Minderoo Foundation also support the FireSat program. After detecting a wildfire, it's crucial for FireSat to quickly disseminate the location and size of a fire to emergency responders. With the first three satellites, the FireSat constellation will observe every point on Earth at least twice per day. "At full capability with 50+ satellites, the revisit times for most of the globe improve to 20 minutes, with the most wildfire-prone regions benefitting from sampling intervals as short as nine minutes," Muon Space said in a statement. "Today's announcement marks a significant milestone and step towards transforming the way we interact with fire," Earth Fire Alliance said in a statement. "As fires become more intense, and spread faster, we believe radical collaboration is key to driving much needed innovation in fire management and climate action."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Google+Backs+Privately+Funded+Satellite+Constellation+For+Wildfire+Detection%3A+https%3A%2F%2Fnews.slashdot.org%2Fstory%2F24%2F09%2F17%2F0442204%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F24%2F09%2F17%2F0442204%2Fgoogle-backs-privately-funded-satellite-constellation-for-wildfire-detection%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/24/09/17/0442204/google-backs-privately-funded-satellite-constellation-for-wildfire-detection?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23457047&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-09-17T07:00:00+00:00</dc:date>
+<dc:subject>earth</dc:subject>
+<slash:department>high-res-imagery</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>20</slash:comments>
+<slash:hit_parade>20,19,19,18,4,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://news.slashdot.org/story/24/09/16/2226243/ai-pioneers-call-for-protections-against-catastrophic-risks?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>AI Pioneers Call For Protections Against 'Catastrophic Risks'</title>
+<link>https://news.slashdot.org/story/24/09/16/2226243/ai-pioneers-call-for-protections-against-catastrophic-risks?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>An anonymous reader quotes a report from the New York Times: Scientists who helped pioneer artificial intelligence are warning that countries must create a global system of oversight to check the potentially grave risks posed by the fast-developing technology. The release of ChatGPT and a string of similar services that can create text and images on command have shown how A.I. is advancing in powerful ways. The race to commercialize the technology has quickly brought it from the fringes of science to smartphones, cars and classrooms, and governments from Washington to Beijing have been forced to figure out how to regulate and harness it. In a statement on Monday, a group of influential A.I. scientists raised concerns that the technology they helped build could cause serious harm. They warned that A.I. technology could, within a matter of years, overtake the capabilities of its makers and that "loss of human control or malicious use of these A.I. systems could lead to catastrophic outcomes for all of humanity."
+ 
+If A.I. systems anywhere in the world were to develop these abilities today, there is no plan for how to rein them in, said Gillian Hadfield, a legal scholar and professor of computer science and government at Johns Hopkins University. "If we had some sort of catastrophe six months from now, if we do detect there are models that are starting to autonomously self-improve, who are you going to call?" Dr. Hadfield said. On Sept. 5-8, Dr. Hadfield joined scientists from around the world in Venice to talk about such a plan. It was the third meeting of the International Dialogues on A.I. Safety, organized by the Safe AI Forum, a project of a nonprofit research group in the United States called Far.AI. Governments need to know what is going on at the research labs and companies working on A.I. systems in their countries, the group said in its statement. And they need a way to communicate about potential risks that does not require companies or researchers to share proprietary information with competitors. The group proposed that countries set up A.I. safety authorities to register the A.I. systems within their borders. Those authorities would then work together to agree on a set of red lines and warning signs, such as if an A.I. system could copy itself or intentionally deceive its creators. This would all be coordinated by an international body.
+ 
+Among the signatories was Yoshua Bengio, whose work is so often cited that he is called one of the godfathers of the field. There was Andrew Yao, whose course at Tsinghua University in Beijing has minted the founders of many of China's top tech companies. Geoffrey Hinton, a pioneering scientist who spent a decade at Google, participated remotely. All three are winners of the Turing Award, the equivalent of the Nobel Prize for computing. The group also included scientists from several of China's leading A.I. research institutions, some of which are state-funded and advise the government. A few former government officials joined, including Fu Ying, who had been a Chinese foreign ministry official and diplomat, and Mary Robinson, the former president of Ireland. Earlier this year, the group met in Beijing, where they briefed senior Chinese government officials on their discussion.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=AI+Pioneers+Call+For+Protections+Against+'Catastrophic+Risks'%3A+https%3A%2F%2Fnews.slashdot.org%2Fstory%2F24%2F09%2F16%2F2226243%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F24%2F09%2F16%2F2226243%2Fai-pioneers-call-for-protections-against-catastrophic-risks%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/24/09/16/2226243/ai-pioneers-call-for-protections-against-catastrophic-risks?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23456753&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-09-17T03:30:00+00:00</dc:date>
+<dc:subject>ai</dc:subject>
+<slash:department>heed-thy-warning</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>49</slash:comments>
+<slash:hit_parade>49,49,40,36,13,4,2</slash:hit_parade>
+</item>
+<item rdf:about="https://yro.slashdot.org/story/24/09/16/2221244/former-moviepass-ceo-mitch-lowe-pleads-guilty-to-securities-fraud-conspiracy?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Former MoviePass CEO Mitch Lowe Pleads Guilty to Securities Fraud Conspiracy</title>
+<link>https://yro.slashdot.org/story/24/09/16/2221244/former-moviepass-ceo-mitch-lowe-pleads-guilty-to-securities-fraud-conspiracy?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Former MoviePass CEO Mitch Lowe pleaded guilty to securities fraud, admitting he misled investors about the viability of the company's $9.95-a-month movie subscription service, and faces up to five years in prison. His co-defendant, former Helios and Matheson CEO Ted Farnsworth, faces similar charges and is scheduled for trial in March 2025; Farnsworth has been in federal custody since August 2023 due to bond violations involving misuse of company funds. Variety reports: Farnsworth and Lowe were the architects of MoviePass' doomed all-you-can-watch offering, which resulted in hundreds of millions of dollars in investor losses in 2017 and 2018. Investigators found that Lowe tried to stem the losses by throttling the service, forcing high-volume users to reset their passwords and verify their tickets. The two men were charged in November 2022 on counts of wire fraud and securities fraud. According to Lowe's plea agreement, the government estimates the total losses from the scheme at $303 million -- though Lowe contends it is less than that. Lowe remains free on bond, and is due back in court in Miami on March 21 for a status conference. Lowe published a memoir in 2022 in which he reflected on the downfall of MoviePass, entitled "Watch and Learn: How I Turned Hollywood Upside Down with Netflix, Redbox, and Moviepass."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Former+MoviePass+CEO+Mitch+Lowe+Pleads+Guilty+to+Securities+Fraud+Conspiracy%3A+https%3A%2F%2Fyro.slashdot.org%2Fstory%2F24%2F09%2F16%2F2221244%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fyro.slashdot.org%2Fstory%2F24%2F09%2F16%2F2221244%2Fformer-moviepass-ceo-mitch-lowe-pleads-guilty-to-securities-fraud-conspiracy%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://yro.slashdot.org/story/24/09/16/2221244/former-moviepass-ceo-mitch-lowe-pleads-guilty-to-securities-fraud-conspiracy?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23456749&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-09-17T01:25:00+00:00</dc:date>
+<dc:subject>court</dc:subject>
+<slash:department>short-term-gimmicks</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>32</slash:comments>
+<slash:hit_parade>32,32,31,27,6,1,0</slash:hit_parade>
+</item>
+<item rdf:about="https://slashdot.org/story/24/09/16/2214216/intel-plans-to-turn-foundry-business-into-subsidiary-allow-for-outside-funding?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Intel Plans To Turn Foundry Business Into Subsidiary, Allow For Outside Funding</title>
+<link>https://slashdot.org/story/24/09/16/2214216/intel-plans-to-turn-foundry-business-into-subsidiary-allow-for-outside-funding?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Intel shares surged 8% after announcing plans to make its foundry business an independent unit with its own board and potential for outside capital, part of CEO Pat Gelsinger's strategy to restructure the company amid financial challenges. The company is also exploring the possibility of spinning off the foundry business, pausing some European manufacturing projects, and expanding its AI chip production partnership with Amazon Web Services to regain market share in the growing AI server chip industry. CNBC reports: As part of CEO Pat Gelsinger's effort to turn around the struggling chipmaker, Intel said in a memo to employees that it will also sell off part of its stake in Altera. Gelsinger said the restructuring would allow the foundry business to "evaluate independent sources of funding,&amp;#226; and comes days after Intel's board met to assess the direction and future of the company. The foundry business, which Intel plans to use to manufacture chips for other customers, has been a big drag on its bottom line, with the company spending roughly $25 billion on it in each of the last two years. Beyond just considering outside funding, Intel is weighing whether to spin off the foundry business, possibly into a separate publicly traded company, according to a person with knowledge of the matter who declined to be named in order to discuss confidential information. With a standalone "operating board" and a cleaner corporate structure, the mechanics of a separation become far easier than trying to turn a fully integrated unit into a separate company. [...] Intel will also pause its fabrication efforts in Poland and Germany "by approximately two years based on anticipated market demand," Gelsinger said, and pull back on its plans for its Malaysian factory. U.S. manufacturing projects will remain unaffected, the company said.
+ 
+In addition to the foundry announcement, Intel said it entered into a deal with Amazon Web Services to produce custom chips for AI, extending a long-running partnership between the two companies. Amazon is a big customer of Intel chips to power its AWS servers, and will buy a custom Xeon processor from Intel as well, Intel said. The move will potentially give Intel a new foothold in the growing industry for AI server chips. While Intel has several products that can be used for AI, including Gaudi 3, Nvidia has largely taken control of the market. Amazon has been developing its own AI chips, including one called Trainium, for over five years. Microsoft and Google have also invested heavily in custom chips to run AI, aiming to offer less expensive processors than Nvidia's general-purpose graphics processing units. Intel said that it would carry out its most advanced manufacturing, including the AI chip for AWS, at its plant in Ohio that's currently under construction. "All eyes will remain on us," Gelsinger said. "We need to fight for every inch and execute better than ever before. Because that's the only way to quiet our critics and deliver the results we know we're capable of achieving."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Intel+Plans+To+Turn+Foundry+Business+Into+Subsidiary%2C+Allow+For+Outside+Funding%3A+https%3A%2F%2Fslashdot.org%2Fstory%2F24%2F09%2F16%2F2214216%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fslashdot.org%2Fstory%2F24%2F09%2F16%2F2214216%2Fintel-plans-to-turn-foundry-business-into-subsidiary-allow-for-outside-funding%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://slashdot.org/story/24/09/16/2214216/intel-plans-to-turn-foundry-business-into-subsidiary-allow-for-outside-funding?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23456747&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-09-17T00:45:00+00:00</dc:date>
+<dc:subject>business</dc:subject>
+<slash:department>turning-the-ship-around</slash:department>
+<slash:section>slashdot</slash:section>
+<slash:comments>22</slash:comments>
+<slash:hit_parade>22,22,21,20,8,4,1</slash:hit_parade>
+</item>
+<item rdf:about="https://science.slashdot.org/story/24/09/16/227236/apple-watch-sleep-apnea-detection-gets-fda-approval?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Apple Watch Sleep Apnea Detection Gets FDA Approval</title>
+<link>https://science.slashdot.org/story/24/09/16/227236/apple-watch-sleep-apnea-detection-gets-fda-approval?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>The FDA has approved sleep apnea detection on the Apple Watch Series 9, Series 10, and Watch Ultra 2. "The green light comes four days ahead of the Series 10's September 20 release date," notes TechCrunch. From the report: The feature, announced at last week's iPhone 16 event, will arrive as part of the imminent watchOS 11 release. Once enabled, it requires 10 nights of sleep tracking data spread out over a 30-day span to determine whether a user may have the condition. During that time, it also offers insights into nightly sleeping disturbances, utilizing the on-board accelerometer.
+ 
+The FDA classes the feature as an "over-the-counter device to assess risk of sleep apnea." Apple is quick to note that the addition is not a diagnostic tool. Rather, it will prompt users to seek a formal diagnosis from a healthcare provider. The condition, which causes breathing to become shallower or repeatedly stop during the night, is associated with a variety of different symptoms. The Mayo Clinic notes that it can cause insomnia, headaches, daytime sleepiness, and other longer-term conditions.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Apple+Watch+Sleep+Apnea+Detection+Gets+FDA+Approval%3A+https%3A%2F%2Fscience.slashdot.org%2Fstory%2F24%2F09%2F16%2F227236%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.slashdot.org%2Fstory%2F24%2F09%2F16%2F227236%2Fapple-watch-sleep-apnea-detection-gets-fda-approval%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://science.slashdot.org/story/24/09/16/227236/apple-watch-sleep-apnea-detection-gets-fda-approval?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23456723&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-09-17T00:02:00+00:00</dc:date>
+<dc:subject>medicine</dc:subject>
+<slash:department>green-lit</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>30</slash:comments>
+<slash:hit_parade>30,29,27,22,4,1,1</slash:hit_parade>
+</item>
+<item rdf:about="https://tech.slashdot.org/story/24/09/16/2114245/usps-long-awaited-mail-truck-makes-its-debut-to-rave-reviews-from-carriers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>USPS' Long-Awaited Mail Truck Makes Its Debut To Rave Reviews From Carriers</title>
+<link>https://tech.slashdot.org/story/24/09/16/2114245/usps-long-awaited-mail-truck-makes-its-debut-to-rave-reviews-from-carriers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>An anonymous reader quotes a report from the Associated Press: The Postal Service's new delivery vehicles aren't going to win a beauty contest. They're tall and ungainly. The windshields are vast. Their hoods resemble a duck bill. Their bumpers are enormous. "You can tell that (the designers) didn't have appearance in mind," postal worker Avis Stonum said. Odd appearance aside, the first handful of Next Generation Delivery Vehicles that rolled onto postal routes in August in Athens, Georgia, are getting rave reviews from letter carriers accustomed to cantankerous older vehicles that lack modern safety features and are prone to breaking down -- and even catching fire.
+ 
+Within a few years, the fleet will have expanded to 60,000, most of them electric models, serving as the Postal Service's primary delivery truck from Maine to Hawaii. Once fully deployed, they'll represent one of the most visible signs of the agency's 10-year, $40 billion transformation led by Postmaster General Louis DeJoy, who's also renovating aging facilities, overhauling the processing and transportation network, and instituting other changes. The current postal vehicles -- the Grumman Long Life Vehicle, dating to 1987 -- have made good on their name, outlasting their projected 25-year lifespan. But they're well overdue for replacement. Noisy and fuel-inefficient (9 mpg), the Grummans are costly to maintain. They're scalding hot in the summer, with only an old-school electric fan to circulate air. They have mirrors mounted on them that -- when perfectly aligned -- allow the driver to see around the vehicle, but the mirrors constantly get knocked out of alignment. Alarmingly, nearly 100 of the vehicles caught fire last year, imperiling carriers and mail alike.
+ 
+The new trucks are being built with comfort, safety and utility in mind by Oshkosh Defense in South Carolina. Even tall postal carriers can stand up without bonking their heads and walk from front to back to retrieve packages. For safety, the vehicles have airbags, 360-degree cameras, blind-spot monitoring, collision sensors and anti-lock brakes -- all of which are missing on the Grummans. The new trucks also feature something common in most cars for more than six decades: air conditioning. And that's key for drivers in the Deep South, the desert Southwest and other areas with scorching summers. [...] Brian Renfroe, president of the National Letter Carriers Association, said union members are enthusiastic about the new vehicles, just as they were when the Grummans marked a leap forward from the previous old-school Jeeps. He credited DeJoy with bringing a sense of urgency to get them into production. "We're excited now to be at the point where they're starting to hit the streets," Renfroe said.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=USPS'+Long-Awaited+Mail+Truck+Makes+Its+Debut+To+Rave+Reviews+From+Carriers%3A+https%3A%2F%2Ftech.slashdot.org%2Fstory%2F24%2F09%2F16%2F2114245%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F24%2F09%2F16%2F2114245%2Fusps-long-awaited-mail-truck-makes-its-debut-to-rave-reviews-from-carriers%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/24/09/16/2114245/usps-long-awaited-mail-truck-makes-its-debut-to-rave-reviews-from-carriers?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23456681&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-09-16T23:20:00+00:00</dc:date>
+<dc:subject>transportation</dc:subject>
+<slash:department>years-in-the-making</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>114</slash:comments>
+<slash:hit_parade>114,114,102,91,30,8,5</slash:hit_parade>
+</item>
+<item rdf:about="https://developers.slashdot.org/story/24/09/16/213256/ellison-declares-oracle-all-in-on-ai-mass-surveillance?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Ellison Declares Oracle 'All In' On AI Mass Surveillance</title>
+<link>https://developers.slashdot.org/story/24/09/16/213256/ellison-declares-oracle-all-in-on-ai-mass-surveillance?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Oracle cofounder Larry Ellison envisions AI as the backbone of a new era of mass surveillance, positioning Oracle as a key player in AI infrastructure through its unique networking architecture and partnerships with AWS and Microsoft. The Register reports: Ellison made the comments near the end of an hour-long chat at the Oracle financial analyst meeting last week during a question and answer session in which he painted Oracle as the AI infrastructure player to beat in light of its recent deals with AWS and Microsoft. Many companies, Ellison touted, build AI models at Oracle because of its "unique networking architecture," which dates back to the database era.
+ 
+"AI is hot, and databases are not," he said, making Oracle's part of the puzzle less sexy, but no less important, at least according to the man himself - AI systems have to have well-organized data, or else they won't be that valuable. The fact that some of the biggest names in cloud computing (and Elon Musk's Grok) have turned to Oracle to run their AI infrastructure means it's clear that Oracle is doing something right, claimed now-CTO Ellison. "If Elon and Satya [Nadella] want to pick us, that's a good sign - we have tech that's valuable and differentiated," Ellison said, adding: One of the ideal uses of that differentiated offering? Maximizing AI's pubic security capabilities.
+ 
+"The police will be on their best behavior because we're constantly watching and recording everything that's going on," Ellison told analysts. He described police body cameras that were constantly on, with no ability for officers to disable the feed to Oracle. Even requesting privacy for a bathroom break or a meal only meant sections of recording would require a subpoena to view - not that the video feed was ever stopped. AI would be trained to monitor officer feeds for anything untoward, which Ellison said could prevent abuse of police power and save lives. [...] "Citizens will be on their best behavior because we're constantly recording and reporting," Ellison added, though it's not clear what he sees as the source of those recordings - police body cams or publicly placed security cameras. "There are so many opportunities to exploit AI," he said.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Ellison+Declares+Oracle+'All+In'+On+AI+Mass+Surveillance%3A+https%3A%2F%2Fdevelopers.slashdot.org%2Fstory%2F24%2F09%2F16%2F213256%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fdevelopers.slashdot.org%2Fstory%2F24%2F09%2F16%2F213256%2Fellison-declares-oracle-all-in-on-ai-mass-surveillance%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://developers.slashdot.org/story/24/09/16/213256/ellison-declares-oracle-all-in-on-ai-mass-surveillance?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23456677&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-09-16T22:40:00+00:00</dc:date>
+<dc:subject>ai</dc:subject>
+<slash:department>surveillance-capitalism</slash:department>
+<slash:section>developers</slash:section>
+<slash:comments>93</slash:comments>
+<slash:hit_parade>93,90,79,72,23,14,10</slash:hit_parade>
+</item>
+<item rdf:about="https://apple.slashdot.org/story/24/09/16/2057240/ios-18-rolling-out-rcs-to-the-iphone-for-better-android-messaging?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>iOS 18 Rolling Out RCS To the iPhone For Better Android Messaging</title>
+<link>https://apple.slashdot.org/story/24/09/16/2057240/ios-18-rolling-out-rcs-to-the-iphone-for-better-android-messaging?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Apple today is rolling out iOS 18, introducing support for Rich Communications Services (RCS) to enhance messaging between iPhone and Android devices with features like typing indicators, read receipts, and higher resolution media. "However, there continues to be no end-to-end encryption (E2EE), with work towards that between Android and iOS continuing," notes 9to5Google. The feature will be enabled by default on iPhones with major U.S. carriers supported, but smaller MVNOs are not yet included.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=iOS+18+Rolling+Out+RCS+To+the+iPhone+For+Better+Android+Messaging%3A+https%3A%2F%2Fapple.slashdot.org%2Fstory%2F24%2F09%2F16%2F2057240%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fapple.slashdot.org%2Fstory%2F24%2F09%2F16%2F2057240%2Fios-18-rolling-out-rcs-to-the-iphone-for-better-android-messaging%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://apple.slashdot.org/story/24/09/16/2057240/ios-18-rolling-out-rcs-to-the-iphone-for-better-android-messaging?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23456675&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-09-16T22:02:00+00:00</dc:date>
+<dc:subject>android</dc:subject>
+<slash:department>time-to-update</slash:department>
+<slash:section>apple</slash:section>
+<slash:comments>22</slash:comments>
+<slash:hit_parade>22,19,12,9,2,1,0</slash:hit_parade>
+</item>
+<textinput rdf:about="https://slashdot.org/search.pl">
+<title>Search Slashdot</title>
+<description>Search Slashdot stories</description>
+<name>query</name>
+<link>https://slashdot.org/search.pl</link>
+</textinput>
+</rdf:RDF>
