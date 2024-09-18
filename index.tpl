@@ -59,7 +59,7 @@
         <ul>
             {% for link in links %}
                 <li>
-                    <a href="{{ link.url }}">{{ link.time }} | {{ link.text }}</a>
+                    <a href="{{ link.url }}">{{ link.time }} | {{ link.text }} ({{ link.domain }}) </a>
                 </li>
             {% endfor %}
         </ul>
