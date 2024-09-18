@@ -6,7 +6,7 @@ import re
 import os
 import urllib.request
 from urllib.parse import urlparse
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 
 from jinja2 import Environment, FileSystemLoader
@@ -33,7 +33,8 @@ DT_FORMAT = [
     "%Y-%m-%dT%H:%M:%S%z",
     "%a, %d %b %y %H:%M:%S %z",
 ]
-INTERVAL = datetime.now() - timedelta(hours=24)
+TPL_FORMAT = "%a, %d %b %Y %H:%M:%S"
+INTERVAL = datetime.now(timezone.utc) - timedelta(hours=24)
 TITLE = "News for last 24 hours"
 TEMPLATE_FILE = "index.tpl"
 
@@ -109,13 +110,13 @@ def main():
                 created_at = parse_dt_string(created_at)
 
             if created_at > INTERVAL:
-                news_links.append({"url": news_url, "text": title, "time": created_at.strftime("%H:%M:%S")})
+                news_links.append({"url": news_url, "text": title, "time": created_at.strftime(TPL_FORMAT)})
 
     if news_links:
         news_links = sorted(news_links, key=lambda link: link["time"], reverse=True)
         env = Environment(loader=FileSystemLoader("."))
         template = env.get_template(TEMPLATE_FILE)
-        updated_at = datetime.now().isoformat()
+        updated_at = datetime.now(timezone.utc).strftime(TPL_FORMAT)
         with open("index.html", "w") as index_file:
             index_file.write(template.render(title=TITLE, links=news_links, updated_at=updated_at))
 
