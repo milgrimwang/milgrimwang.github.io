@@ -27,11 +27,13 @@ RSS_FEEDS = [
     "https://www.schneier.com/feed/atom/",
     "https://www.afcea.org/signal-articles-feed.xml",
     "https://phys.org/rss-feed/",
+    "https://www.theregister.com/headlines.atom",
 ]
 DT_FORMAT = [
     "%a, %d %b %Y %H:%M:%S %z",
     "%Y-%m-%dT%H:%M:%S%z",
     "%a, %d %b %y %H:%M:%S %z",
+    "%Y-%m-%dT%H:%M:%S.%fZ",
 ]
 TPL_FORMAT = "%a, %d %b %Y %H:%M:%S"
 INTERVAL = datetime.now(timezone.utc) - timedelta(hours=24)
@@ -58,7 +60,7 @@ def parse_dt_string(dt_string):
 
     for dt_format in DT_FORMAT:
         try:
-            return datetime.strptime(dt_string, dt_format)
+            return datetime.strptime(dt_string, dt_format).replace(tzinfo=timezone.utc)
         except ValueError:
             pass
 
