@@ -53,8 +53,9 @@
 </head>
 <body>
     <h1>{{ title }}</h1>
-    Last updated: {{ updated_at }}
+
     <div class="links-container">
+        Last updated: {{ updated_at }}
         <ul>
             {% for link in links %}
                 <li>
