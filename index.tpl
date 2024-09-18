@@ -24,9 +24,10 @@
         }
 
         .links-container {
-            max-width: 600px;
+            width: 100%;
             margin: 0 auto;
             padding: 20px;
+            box-sizing: border-box;
         }
 
         ul {
@@ -52,7 +53,7 @@
 </head>
 <body>
     <h1>{{ title }}</h1>
-    Last updated: {updated_at}
+    Last updated: {{ updated_at }}
     <div class="links-container">
         <ul>
             {% for link in links %}
