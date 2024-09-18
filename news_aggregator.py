@@ -112,7 +112,10 @@ def main():
                 created_at = parse_dt_string(created_at)
 
             if created_at > INTERVAL:
-                news_links.append({"url": news_url, "text": title, "time": created_at.strftime(TPL_FORMAT)})
+                domain = urlparse(rss_url).netloc.replace("www.", "")
+                news_links.append({
+                    "url": news_url, "text": title, "time": created_at.strftime(TPL_FORMAT), "domain": domain,
+                })
 
     if news_links:
         news_links = sorted(news_links, key=lambda link: link["time"], reverse=True)
