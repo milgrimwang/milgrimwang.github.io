@@ -5,15 +5,15 @@ RSS feeds news aggregator
 import re
 import os
 import urllib.request
-from datetime import datetime
 from urllib.parse import urlparse
+from datetime import datetime, timedelta
+
 
 from jinja2 import Environment, FileSystemLoader
 
 RSS_FEEDS = [
     "https://www.technologyreview.com/feed/",
     "https://www.eurogamer.net/feed",
-    # "https://rss.slashdot.org/Slashdot/slashdotMain",
     "https://www.cnet.com/rss/news/",
     "https://gizmodo.com/feed",
     "https://www.techradar.com/feeds/articletype/news",
@@ -33,8 +33,8 @@ DT_FORMAT = [
     "%Y-%m-%dT%H:%M:%S%z",
     "%a, %d %b %y %H:%M:%S %z",
 ]
-TODAY = datetime.now().date()
-TITLE = f"News for {TODAY}"
+INTERVAL = datetime.now() - timedelta(hours=24)
+TITLE = "News for last 24 hours"
 TEMPLATE_FILE = "index.tpl"
 
 
@@ -108,15 +108,16 @@ def main():
                 created_at = created_at[0].strip()
                 created_at = parse_dt_string(created_at)
 
-            if created_at.date() == TODAY:
+            if created_at > INTERVAL:
                 news_links.append({"url": news_url, "text": title, "time": created_at.strftime("%H:%M:%S")})
 
     if news_links:
         news_links = sorted(news_links, key=lambda link: link["time"], reverse=True)
         env = Environment(loader=FileSystemLoader("."))
         template = env.get_template(TEMPLATE_FILE)
+        updated_at = datetime.now().isoformat()
         with open("index.html", "w") as index_file:
-            index_file.write(template.render(title=TITLE, links=news_links))
+            index_file.write(template.render(title=TITLE, links=news_links, updated_at=updated_at))
 
 
 if __name__ == "__main__":
