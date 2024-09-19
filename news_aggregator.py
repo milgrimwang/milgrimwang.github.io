@@ -118,11 +118,11 @@ def main():
             if created_at > INTERVAL:
                 domain = urlparse(rss_url).netloc.replace("www.", "")
                 news_links.append({
-                    "url": news_url, "text": title, "time": created_at.strftime(TPL_FORMAT), "domain": domain,
+                    "url": news_url, "text": title, "time": created_at.strftime(TPL_FORMAT), "ts": created_at, "domain": domain,
                 })
 
     if news_links:
-        news_links = sorted(news_links, key=lambda link: link["time"], reverse=True)
+        news_links = sorted(news_links, key=lambda link: link["ts"], reverse=True)
         env = Environment(loader=FileSystemLoader("."))
         template = env.get_template(TEMPLATE_FILE)
         updated_at = datetime.now(timezone.utc).strftime(TPL_FORMAT)
