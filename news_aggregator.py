@@ -29,6 +29,7 @@ RSS_FEEDS = [
     "https://phys.org/rss-feed/",
     "https://www.theregister.com/headlines.atom",
     "https://blog.torproject.org/feed",
+    "https://lichess.org/@/Lichess/blog.atom",
 ]
 DT_FORMAT = [
     "%a, %d %b %Y %H:%M:%S %z",
