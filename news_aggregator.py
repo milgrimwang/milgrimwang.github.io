@@ -28,6 +28,7 @@ RSS_FEEDS = [
     "https://www.afcea.org/signal-articles-feed.xml",
     "https://phys.org/rss-feed/",
     "https://www.theregister.com/headlines.atom",
+    "https://blog.torproject.org/feed",
 ]
 DT_FORMAT = [
     "%a, %d %b %Y %H:%M:%S %z",
