@@ -108,6 +108,8 @@ def main():
                 created_at = re.findall(r"<dc:date>(.*?)</dc:date>", item, re.DOTALL)
             if not created_at:
                 created_at = re.findall(r"<published>(.*?)</published>", item, re.DOTALL)
+            if not created_at:
+                created_at = re.findall(r"<updated>(.*?)</updated>", item, re.DOTALL)
             if created_at:
                 created_at = created_at[0].strip()
                 created_at = parse_dt_string(created_at)
