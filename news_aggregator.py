@@ -39,7 +39,7 @@ DT_FORMAT = [
 ]
 TPL_FORMAT = "%a, %d %b %Y %H:%M:%S"
 INTERVAL = datetime.now(timezone.utc) - timedelta(hours=24)
-TITLE = "News for last 24 hours"
+TITLE = "News aggregator"
 TEMPLATE_FILE = "index.tpl"
 SKIP_NEWS = [
     "NYT", "Best Internet Providers",
