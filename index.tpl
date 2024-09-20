@@ -52,8 +52,6 @@
     </style>
 </head>
 <body>
-    <h1>{{ title }}</h1>
-
     <div class="links-container">
         Last updated: {{ updated_at }}
         <ul>
