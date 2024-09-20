@@ -17,12 +17,6 @@
             line-height: 1.6;
         }
 
-        h1 {
-            text-align: center;
-            margin: 20px 0;
-            color: #fff;
-        }
-
         .links-container {
             width: 100%;
             margin: 0 auto;
