@@ -41,6 +41,9 @@ TPL_FORMAT = "%a, %d %b %Y %H:%M:%S"
 INTERVAL = datetime.now(timezone.utc) - timedelta(hours=24)
 TITLE = "News for last 24 hours"
 TEMPLATE_FILE = "index.tpl"
+SKIP_NEWS = [
+    "NYT", "Best Internet Providers",
+]
 
 
 def get_url_content(url):
@@ -87,6 +90,9 @@ def main():
                 title = re.findall(r"<title.*?>(.*?)</title>", item, re.DOTALL)
             if title:
                 title = title[0].strip()
+                if any(skip in title for skip in SKIP_NEWS):
+                    continue
+
                 if "<![CDATA[" in title:
                     title = title.replace("<![CDATA[", "").replace("]]>", "").strip()
                 if "&#8217;" in title:
@@ -116,7 +122,7 @@ def main():
                 created_at = parse_dt_string(created_at)
 
             if created_at > INTERVAL:
-                domain = urlparse(rss_url).netloc.replace("www.", "")
+                domain = urlparse(rss_url).netloc.replace("www.", "").replace("feeds.", "")
                 news_links.append({
                     "url": news_url, "text": title, "time": created_at.strftime(TPL_FORMAT), "ts": created_at, "domain": domain,
                 })
