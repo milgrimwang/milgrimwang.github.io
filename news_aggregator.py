@@ -44,6 +44,7 @@ TEMPLATE_FILE = "index.tpl"
 SKIP_NEWS = [
     "Today's NYT",
     "Today's Wordle Hints",
+    "NYT Connections today",
     "Best Internet Providers",
 ]
 
