@@ -91,9 +91,6 @@ def main():
                 title = re.findall(r"<title.*?>(.*?)</title>", item, re.DOTALL)
             if title:
                 title = title[0].strip()
-                if any(skip in title for skip in SKIP_NEWS):
-                    continue
-
                 if "<![CDATA[" in title:
                     title = title.replace("<![CDATA[", "").replace("]]>", "").strip()
                 if "&#8217;" in title:
@@ -102,6 +99,9 @@ def main():
                     title = title.replace("&#039;", "'")
                 if "&#8243;" in title:
                     title = title.replace("&#8243;", '"')
+
+                if any(skip in title for skip in SKIP_NEWS):
+                    continue
 
             news_url = re.findall(r"<link>(.*?)</link>", item, re.DOTALL)
             if not news_url:
