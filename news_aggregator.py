@@ -42,6 +42,7 @@ INTERVAL = datetime.now(timezone.utc) - timedelta(hours=24)
 TITLE = "News aggregator"
 TEMPLATE_FILE = "index.tpl"
 SKIP_NEWS = [
+    "Today's NYT",
     "Best Internet Providers",
 ]
 
