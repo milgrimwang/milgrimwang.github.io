@@ -43,6 +43,7 @@ TITLE = "News aggregator"
 TEMPLATE_FILE = "index.tpl"
 SKIP_NEWS = [
     "Today's NYT",
+    "Today's Wordle Hints",
     "Best Internet Providers",
 ]
 
