@@ -49,6 +49,7 @@ SKIP_NEWS = [
     "NYT Connections today",
     "Best Internet Providers",
     "Livestream: How to Watch",
+    "How to Watch",
     "Best Places to Buy",
 ]
 
