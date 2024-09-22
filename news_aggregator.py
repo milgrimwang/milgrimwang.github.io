@@ -48,6 +48,8 @@ SKIP_NEWS = [
     "Today's Wordle Hints",
     "NYT Connections today",
     "Best Internet Providers",
+    "Livestream: How to Watch",
+    "Best Places to Buy",
 ]
 
 
