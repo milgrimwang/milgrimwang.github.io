@@ -52,7 +52,7 @@ SKIP_NEWS = [
 
 
 def get_url_content(url):
-    # print(f"Download {url}")
+    print(f"Download {url}")
     try:
         headers = {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:130.0) Gecko/20100101 Firefox/130.0'
