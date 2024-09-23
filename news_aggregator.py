@@ -106,6 +106,8 @@ def main():
                     title = title.replace("&#039;", "'")
                 if "&#8243;" in title:
                     title = title.replace("&#8243;", '"')
+                if "&amp;" in title:
+                    title = title.replace("&amp;", "&")
 
                 if any(skip in title for skip in SKIP_NEWS):
                     continue
