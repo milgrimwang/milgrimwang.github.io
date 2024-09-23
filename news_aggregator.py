@@ -51,6 +51,7 @@ SKIP_NEWS = [
     "Livestream: How to Watch",
     "How to Watch",
     "Best Places to Buy",
+    "Exclusive deal:"
 ]
 
 
