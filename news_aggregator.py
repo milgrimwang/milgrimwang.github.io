@@ -33,6 +33,7 @@ RSS_FEEDS = [
     "https://spectrum.ieee.org/customfeeds/feed/all-topics/rss",
     "https://www.nitrokey.com/rss.xml",
     "https://www.yubico.com/rss/",
+    "https://www.science.org/rss/news_current.xml",
 ]
 DT_FORMAT = [
     "%a, %d %b %Y %H:%M:%S %z",
