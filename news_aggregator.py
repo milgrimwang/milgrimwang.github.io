@@ -57,6 +57,7 @@ SKIP_NEWS = [
     "Best Places to Buy",
     "Exclusive deal:",
     "Best VPN",
+    "Climate Tech Companies to Watch",
 ]
 
 
