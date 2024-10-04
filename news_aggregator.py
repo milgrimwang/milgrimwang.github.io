@@ -8,14 +8,11 @@ import urllib.request
 from urllib.parse import urlparse
 from datetime import datetime, timedelta, timezone
 
-
 from jinja2 import Environment, FileSystemLoader
 
 RSS_FEEDS = [
     "https://www.technologyreview.com/feed/",
     "https://www.eurogamer.net/feed",
-    # "https://www.cnet.com/rss/news/",
-    # "https://gizmodo.com/feed",
     "https://www.techradar.com/feeds/articletype/news",
     "https://feeds.arstechnica.com/arstechnica/index",
     "https://www.engadget.com/rss.xml",
@@ -25,14 +22,11 @@ RSS_FEEDS = [
     "https://www.cisa.gov/news.xml",
     "https://krebsonsecurity.com/feed/",
     "https://www.schneier.com/feed/atom/",
-    "https://www.afcea.org/signal-articles-feed.xml",
     "https://phys.org/rss-feed/",
     "https://www.theregister.com/headlines.atom",
     "https://blog.torproject.org/feed",
     "https://lichess.org/@/Lichess/blog.atom",
     "https://spectrum.ieee.org/customfeeds/feed/all-topics/rss",
-    "https://www.nitrokey.com/rss.xml",
-    "https://www.yubico.com/rss/",
     "https://www.science.org/rss/news_current.xml",
 ]
 DT_FORMAT = [
@@ -42,7 +36,7 @@ DT_FORMAT = [
     "%Y-%m-%dT%H:%M:%S.%fZ",
 ]
 TPL_FORMAT = "%a, %d %b %Y %H:%M:%S"
-INTERVAL = datetime.now(timezone.utc) - timedelta(hours=24)
+INTERVAL = datetime.now(timezone.utc) - timedelta(hours=12)
 TITLE = "News aggregator"
 TEMPLATE_FILE = "index.tpl"
 SKIP_NEWS = [
@@ -139,7 +133,7 @@ def main():
                 created_at = parse_dt_string(created_at)
 
             if created_at > INTERVAL:
-                domain = urlparse(rss_url).netloc.replace("www.", "").replace("feeds.", "")
+                domain = urlparse(rss_url).netloc.replace("www.", "").replace("feeds.", "").replace("spectrum", "")
                 news_links.append({
                     "url": news_url, "text": title, "time": created_at.strftime(TPL_FORMAT), "ts": created_at, "domain": domain,
                 })
