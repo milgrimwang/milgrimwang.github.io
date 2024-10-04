@@ -52,6 +52,7 @@ SKIP_NEWS = [
     "Exclusive deal:",
     "Best VPN",
     "Climate Tech Companies to Watch",
+    "TechCrunch Disrupt",
 ]
 
 
@@ -133,7 +134,7 @@ def main():
                 created_at = parse_dt_string(created_at)
 
             if created_at > INTERVAL:
-                domain = urlparse(rss_url).netloc.replace("www.", "").replace("feeds.", "").replace("spectrum", "")
+                domain = urlparse(rss_url).netloc.replace("www.", "").replace("feeds.", "").replace("spectrum.", "")
                 news_links.append({
                     "url": news_url, "text": title, "time": created_at.strftime(TPL_FORMAT), "ts": created_at, "domain": domain,
                 })
