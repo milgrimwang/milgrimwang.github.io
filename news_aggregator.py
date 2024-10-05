@@ -53,6 +53,7 @@ SKIP_NEWS = [
     "Best VPN",
     "Climate Tech Companies to Watch",
     "TechCrunch Disrupt",
+    "Prime Day",
 ]
 
 
