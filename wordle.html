@@ -125,7 +125,7 @@
         }
 
         .keyboard {
-            margin-top: 5px;
+            margin-top: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -136,17 +136,14 @@
             margin: 5px 0;
         }
         .key {
-            width: 20px;
-            height: 20px;
             display: inline-block;
-            padding: 5px 5px;
+            padding: 10px 15px;
             margin: 5px;
             border: 1px solid var(--key-border);
             background-color: var(--key-bg);
             font-size: 1.2em;
             cursor: pointer;
             text-transform: uppercase;
-            text-align: center;
         }
         .key.correct {
             background-color: var(--correct-color);
@@ -203,7 +200,7 @@
     <div id="game">
         <h1>Wordle Game</h1>
         <div id="board"></div>
-<!--        <p id="message"></p>-->
+        <p id="message"></p>
     </div>
     <div id="keyboard" class="keyboard"></div>
 
