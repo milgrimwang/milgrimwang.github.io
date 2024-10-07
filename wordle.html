@@ -38,36 +38,8 @@
             --correct-color: #007f00;
             --present-color: #bb9b00;
             --absent-color: #444;
-            --key-bg: #333;
+            --key-bg: #666;
             --key-border: #777;
-        }
-
-        #theme-toggle, #help-icon {
-            font-size: 2em;
-            cursor: pointer;
-            margin: 10px;
-            position: absolute;
-            top: 10px;
-        }
-        #theme-toggle {
-            right: 50px;
-        }
-        #help-icon {
-            right: 10px;
-        }
-
-        /* Help message styles */
-        #help-message {
-            position: absolute;
-            top: 50px;
-            right: 10px;
-            background-color: var(--background-color);
-            border: 1px solid var(--cell-border);
-            padding: 10px;
-            width: 200px;
-            display: none;
-            box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
-            border-radius: 8px;
         }
 
         #game {
@@ -76,13 +48,13 @@
         .row {
             display: flex;
             justify-content: center;
-            margin: 5px 0;
+            margin: 1px 0;
         }
         .cell {
             width: 50px;
             height: 50px;
             border: 2px solid var(--cell-border);
-            margin: 2px;
+            margin: 1px;
             font-size: 1.5em;
             font-weight: bold;
             display: flex;
@@ -125,7 +97,7 @@
         }
 
         .keyboard {
-            margin-top: 20px;
+            margin-top: 1px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -133,12 +105,12 @@
         .key-row {
             display: flex;
             justify-content: center;
-            margin: 5px 0;
+            margin: 1px 0;
         }
         .key {
             display: inline-block;
-            padding: 10px 15px;
-            margin: 5px;
+            padding: 10px 5px;
+            margin: 2px;
             border: 1px solid var(--key-border);
             background-color: var(--key-bg);
             font-size: 1.2em;
@@ -185,24 +157,10 @@
     </style>
 </head>
 <body class="dark-mode">
-<!--    <div id="theme-toggle">🌜</div>-->
-<!--    <div id="help-icon">❓</div>-->
-<!--    <div id="help-message">-->
-<!--        <p><strong>How to play:</strong></p>-->
-<!--        <p>Guess the 5-letter word in 6 tries.</p>-->
-<!--        <ul>-->
-<!--            <li>🟩 Correct letter in correct spot</li>-->
-<!--            <li>🟨 Correct letter in wrong spot</li>-->
-<!--            <li>⬜ Incorrect letter</li>-->
-<!--        </ul>-->
-<!--    </div>-->
-
     <div id="game">
-        <h1>Wordle Game</h1>
         <div id="board"></div>
-        <p id="message"></p>
+        <div id="keyboard" class="keyboard"></div>
     </div>
-    <div id="keyboard" class="keyboard"></div>
 
     <!-- Overlay message for win/lose -->
     <div id="overlay-message">
@@ -215,24 +173,6 @@
         let currentRow = 0;
         let currentGuess = "";
         let gameOver = false;
-
-        // Theme toggle setup
-        // const themeToggle = document.getElementById("theme-toggle");
-        // let darkMode = true;
-
-        // themeToggle.addEventListener("click", () => {
-        //     darkMode = !darkMode;
-        //     document.body.classList.toggle("dark-mode", darkMode);
-        //     themeToggle.textContent = darkMode ? "🌜" : "🌞";
-        // });
-
-        // Help message toggle setup
-        // const helpIcon = document.getElementById("help-icon");
-        // const helpMessage = document.getElementById("help-message");
-
-        // helpIcon.addEventListener("click", () => {
-        //     helpMessage.style.display = helpMessage.style.display === "block" ? "none" : "block";
-        // });
 
         // Game board setup
         const board = document.getElementById('board');
@@ -305,13 +245,11 @@
 
         function submitGuess() {
             if (currentGuess.length !== 5) {
-                // document.getElementById('message').textContent = "Not enough letters!";
                 invalidWordAnimation();
                 return;
             }
 
             if (!words.includes(currentGuess)) {
-                // document.getElementById('message').textContent = "Unknown word!";
                 invalidWordAnimation();
                 return;
             }
@@ -396,7 +334,6 @@
         // Function to reset the game without reloading the page
         function resetGame() {
             document.getElementById('overlay-message').style.display = "none";
-            document.getElementById('message').textContent = "";
             const rows = document.getElementsByClassName('row');
             for (let row of rows) {
                 const cells = row.getElementsByClassName('cell');
