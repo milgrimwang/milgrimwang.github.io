@@ -347,6 +347,7 @@
             overlayText.textContent = text;
             overlay.style.display = "block";
             overlay.addEventListener("click", resetGame);
+            overlay.addEventListener("keydown", resetGame)
         }
 
         // Function to reset the game without reloading the page
@@ -372,6 +373,18 @@
             solution = words[Math.floor(Math.random() * words.length)];
             gameOver = false;
         }
+
+        // Listen for physical keyboard input
+        document.addEventListener("keydown", (e) => {
+            if (!gameOver) {
+                const key = e.key.toLowerCase();
+                if (rows.flat().includes(key) || key === 'backspace') {
+                    handleKeyPress(key === 'backspace' ? 'delete' : key);
+                }
+            } else {
+                resetGame()
+            }
+        });
     </script>
 </body>
 </html>
