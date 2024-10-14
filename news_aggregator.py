@@ -16,7 +16,6 @@ RSS_FEEDS = [
     "https://www.techradar.com/feeds/articletype/news",
     "https://feeds.arstechnica.com/arstechnica/index",
     "https://www.engadget.com/rss.xml",
-    "https://www.theverge.com/rss/index.xml",
     "https://techcrunch.com/feed/",
     "https://www.bleepingcomputer.com/feed/",
     "https://www.cisa.gov/news.xml",
