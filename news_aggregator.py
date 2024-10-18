@@ -53,6 +53,7 @@ SKIP_NEWS = [
     "Climate Tech Companies to Watch",
     "TechCrunch Disrupt",
     "Prime Day",
+    "The Morning After",
 ]
 
 
