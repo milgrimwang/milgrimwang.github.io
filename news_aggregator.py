@@ -75,7 +75,7 @@ def parse_dt_string(dt_string):
         dt_string = dt_string.replace("EDT", "-04:00")
 
     if "EST" in dt_string:
-        dt_string = dt_string.replace("EDT", "-05:00")
+        dt_string = dt_string.replace("EST", "-05:00")
 
     for dt_format in DT_FORMAT:
         try:
