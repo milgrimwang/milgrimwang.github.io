@@ -74,6 +74,9 @@ def parse_dt_string(dt_string):
     if "EDT" in dt_string:
         dt_string = dt_string.replace("EDT", "-04:00")
 
+    if "EST" in dt_string:
+        dt_string = dt_string.replace("EDT", "-05:00")
+
     for dt_format in DT_FORMAT:
         try:
             return datetime.strptime(dt_string, dt_format).replace(tzinfo=timezone.utc)
