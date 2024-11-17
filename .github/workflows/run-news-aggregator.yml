@@ -1,4 +1,4 @@
-name: run news_aggregator.py
+name: run-news-aggregator
 
 on:
   schedule:
