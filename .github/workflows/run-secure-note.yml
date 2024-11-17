@@ -1,0 +1,72 @@
+name: run-secure-note
+
+on:
+  workflow_dispatch:
+    inputs:
+      note_title:
+        description: "Secure note title"
+        required: true
+        type: string
+      note_file:
+        description: "Secure note file name"
+        required: true
+        type: string
+      note_password:
+        description: "Secure note password"
+        required: true
+        type: string
+      note_text:
+        description: "Secure note text"
+        required: true
+        type: string
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: mask inputs
+        run: |
+          NOTE_TITLE=$(jq -r '.inputs.note_title' $GITHUB_EVENT_PATH)
+          echo ::add-mask::$NOTE_TITLE
+          echo NOTE_TITLE=$NOTE_TITLE >> $GITHUB_ENV
+          #
+          NOTE_FILE=$(jq -r '.inputs.note_file' $GITHUB_EVENT_PATH)
+          echo ::add-mask::$NOTE_FILE
+          echo NOTE_FILE=$NOTE_FILE >> $GITHUB_ENV
+          #
+          NOTE_PASSWORD=$(jq -r '.inputs.note_password' $GITHUB_EVENT_PATH)
+          echo ::add-mask::$NOTE_PASSWORD
+          echo NOTE_PASSWORD=$NOTE_PASSWORD >> $GITHUB_ENV
+          #
+          NOTE_TEXT=$(jq -r '.inputs.note_text' $GITHUB_EVENT_PATH)
+          echo ::add-mask::$NOTE_TEXT
+          echo NOTE_TEXT=$NOTE_TEXT >> $GITHUB_ENV
+
+      - name: checkout repo content
+        uses: actions/checkout@v4
+
+      - name: setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: aggregate news
+        run: python secure_note.py
+          
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "make secure note" --allow-empty)
+          
+      - name: push changes
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main 
