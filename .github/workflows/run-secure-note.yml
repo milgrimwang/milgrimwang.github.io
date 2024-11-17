@@ -55,7 +55,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: aggregate news
+      - name: make secure note
         run: python secure_note.py
           
       - name: commit files
