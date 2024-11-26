@@ -54,6 +54,7 @@ SKIP_NEWS = [
     "TechCrunch Disrupt",
     "Prime Day",
     "The Morning After",
+    "Black Friday",
 ]
 
 
