@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WASM Features test</title>
+    <style>
+        body {
+            background-color: #333333; /* Light gray */
+            color: #ffbf00; /* Amber */
+            font-family: monospace;
+            padding: 10px;
+            margin: 0;
+        }
+        .content {
+            border: 1px solid #444444;
+        }
+    </style>
+</head>
+<body>
+    <pre id="content" class="content"></pre>
+    <script type="module">
+        // https://www.npmjs.com/package/wasm-feature-detect
+        import * as wasmTests from "https://unpkg.com/wasm-feature-detect?module";
+
+        const content = document.getElementById("content");
+        let testName;
+        let testResult;
+        let maxKeyLength = 0;
+
+        for (const key of Object.keys(wasmTests)) {
+            if (`${key}`.length > maxKeyLength) {
+                maxKeyLength = `${key}`.length;
+            }
+        }
+
+        for (const [key, value] of Object.entries(wasmTests)) {
+            if (typeof value === "function") {
+                testName = `${key}`.replace(/([a-z])([A-Z])/g, '$1 $2').toUpperCase();
+                testResult = `${await value()}`.toUpperCase();
+                content.append(`Test: ${testName}`.padEnd(maxKeyLength + 10) + `${testResult}\n`);
+            } else {
+                console.log(`Skip non-function export ${key}`);
+            }
+        }
+        content.append(`\n\nCheck console.log for any skipped items`);
+    </script>
+</body>
+</html>
