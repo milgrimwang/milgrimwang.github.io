@@ -1,0 +1,29 @@
+name: run-trim-commit-history
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  trim:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: checkout repo content
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: trim commit history
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          git checkout --orphan temp-branch          
+          git add -A          
+          git commit -m "Initial commit"          
+          git branch -D main
+          git branch -m main
+          git push origin main --force
