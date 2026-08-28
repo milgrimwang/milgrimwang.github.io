@@ -57,6 +57,7 @@ SKIP_NEWS = [
     "Cyber Monday",
     "The best",
     "deals",
+    "release date",
 ]
 
 
