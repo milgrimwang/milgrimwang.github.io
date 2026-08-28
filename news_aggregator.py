@@ -119,7 +119,7 @@ def main():
                 if "&amp;" in title:
                     title = title.replace("&amp;", "&")
 
-                if any(skip in title for skip in SKIP_NEWS):
+                if any(skip in title.lower() for skip.lower() in SKIP_NEWS):
                     continue
 
             news_url = re.findall(r"<link>(.*?)</link>", item, re.DOTALL)
