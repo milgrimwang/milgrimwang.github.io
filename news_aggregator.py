@@ -23,7 +23,7 @@ RSS_FEEDS = [
     "https://blog.torproject.org/feed",
     "https://spectrum.ieee.org/customfeeds/feed/all-topics/rss",
     "https://www.science.org/rss/news_current.xml",
-    "https://www.darkreading.com/rss.xml",
+    #"https://www.darkreading.com/rss.xml",
     "https://www.securityweek.com/feed",
     "https://therecord.media/feed/",
 ]
