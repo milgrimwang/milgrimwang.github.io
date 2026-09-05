@@ -18,7 +18,6 @@ RSS_FEEDS = [
     "https://www.engadget.com/rss.xml",
     "https://techcrunch.com/feed/",
     "https://www.bleepingcomputer.com/feed/",
-    "https://krebsonsecurity.com/feed/",
     "https://phys.org/rss-feed/",
     "https://www.theregister.com/headlines.atom",
     "https://blog.torproject.org/feed",
