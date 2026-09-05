@@ -21,9 +21,11 @@ RSS_FEEDS = [
     "https://phys.org/rss-feed/",
     "https://www.theregister.com/headlines.atom",
     "https://blog.torproject.org/feed",
-    "https://lichess.org/@/Lichess/blog.atom",
     "https://spectrum.ieee.org/customfeeds/feed/all-topics/rss",
     "https://www.science.org/rss/news_current.xml",
+    "https://www.darkreading.com/rss.xml",
+    "https://www.securityweek.com/feed",
+    "https://therecord.media/feed/",
 ]
 DT_FORMAT = [
     "%a, %d %b %Y %H:%M:%S %z",
