@@ -19,7 +19,6 @@ RSS_FEEDS = [
     "https://techcrunch.com/feed/",
     "https://www.bleepingcomputer.com/feed/",
     "https://krebsonsecurity.com/feed/",
-    "https://www.schneier.com/feed/atom/",
     "https://phys.org/rss-feed/",
     "https://www.theregister.com/headlines.atom",
     "https://blog.torproject.org/feed",
