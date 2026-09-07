@@ -2,7 +2,7 @@ name: run-news-aggregator
 
 on:
   schedule:
-    - cron: '0 0/4 * * *'
+    - cron: '23 1,5,9,13,17,21 * * *'
   workflow_dispatch:
 
 jobs:
