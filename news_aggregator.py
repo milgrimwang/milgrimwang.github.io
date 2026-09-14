@@ -8,6 +8,7 @@ import urllib.request
 from urllib.parse import urlparse
 from datetime import datetime, timedelta, timezone
 
+from lxml import html
 from jinja2 import Environment, FileSystemLoader
 
 RSS_FEEDS = [
@@ -28,6 +29,8 @@ DT_FORMAT = [
     "%Y-%m-%dT%H:%M:%S%z",
     "%a, %d %b %y %H:%M:%S %z",
     "%Y-%m-%dT%H:%M:%S.%fZ",
+    "%Y-%m-%d %H:%M:%S",  # Lobsters
+    "%Y-%m-%dT%H:%M:%S",  # HN
 ]
 TPL_FORMAT = "%a, %d %b %Y %H:%M:%S"
 INTERVAL = datetime.now(timezone.utc) - timedelta(hours=12)
@@ -143,6 +146,51 @@ def main():
                     "url": news_url, "text": title, "time": created_at.strftime(TPL_FORMAT), "ts": created_at, "domain": domain,
                 })
 
+    for news_url in NEWS_URLS:
+        news_content = get_url_content(news_url)
+        if news_content is None:
+            print(f"No news content for {news_url}")
+            continue
+
+        x = html.fromstring(news_content)
+        # Lobsters
+        details = x.xpath('//div[@class="details"]')
+        if details:
+            for detail in details:
+                url = first_or_none(detail.xpath('.//a[@class="u-url"]/@href'))
+                if url and not url.startswith("https"):
+                    continue
+                title = first_or_none(detail.xpath('.//a[@class="u-url"]/text()'))
+                created_at = parse_dt_string(first_or_none(detail.xpath(".//time/@title")))
+
+                if created_at > INTERVAL:
+                    domain = urlparse(url).netloc.replace("www.", "").replace("feeds.", "").replace("spectrum.", "")
+                    news_links.append({
+                        "url": url, "text": title, "time": created_at.strftime(TPL_FORMAT), "ts": created_at, "domain": domain,
+                    })
+    
+            continue
+
+        # HN
+        details = x.xpath('//tr[@class="athing submission"]')
+        if details:
+            for detail in details:
+                url = first_or_none(detail.xpath('.//span[@class="titleline"]/a/@href'))
+                if url and not url.startswith("https"):
+                    continue
+                title = first_or_none(detail.xpath('.//span[@class="titleline"]/a/text()'))
+                created_at = parse_dt_string(first_or_none(detail.xpath('..//tr//span[@class="age"]/@title')))
+
+
+                if created_at > INTERVAL:
+                    domain = urlparse(url).netloc.replace("www.", "").replace("feeds.", "").replace("spectrum.", "")
+                    news_links.append({
+                        "url": url, "text": title, "time": created_at.strftime(TPL_FORMAT), "ts": created_at, "domain": domain,
+                    })
+
+            continue
+
+    
     if news_links:
         news_links = sorted(news_links, key=lambda link: link["ts"], reverse=True)
         env = Environment(loader=FileSystemLoader("."))
