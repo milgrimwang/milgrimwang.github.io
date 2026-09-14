@@ -171,11 +171,10 @@ def main():
                 title = first_or_none(detail.xpath('.//a[@class="u-url"]/text()'))
                 created_at = parse_dt_string(first_or_none(detail.xpath(".//time/@title")))
 
-                if created_at > INTERVAL:
-                    domain = urlparse(url).netloc.replace("www.", "").replace("feeds.", "").replace("spectrum.", "")
-                    news_links.append({
-                        "url": url, "text": title, "time": created_at.strftime(TPL_FORMAT), "ts": created_at, "domain": domain,
-                    })
+                domain = urlparse(url).netloc.replace("www.", "").replace("feeds.", "").replace("spectrum.", "")
+                news_links.append({
+                    "url": url, "text": title, "time": created_at.strftime(TPL_FORMAT), "ts": created_at, "domain": domain,
+                })
     
             continue
 
@@ -190,11 +189,10 @@ def main():
                 created_at = parse_dt_string(first_or_none(detail.xpath('..//tr//span[@class="age"]/@title')))
 
 
-                if created_at > INTERVAL:
-                    domain = urlparse(url).netloc.replace("www.", "").replace("feeds.", "").replace("spectrum.", "")
-                    news_links.append({
-                        "url": url, "text": title, "time": created_at.strftime(TPL_FORMAT), "ts": created_at, "domain": domain,
-                    })
+                domain = urlparse(url).netloc.replace("www.", "").replace("feeds.", "").replace("spectrum.", "")
+                news_links.append({
+                    "url": url, "text": title, "time": created_at.strftime(TPL_FORMAT), "ts": created_at, "domain": domain,
+                })
 
             continue
 
