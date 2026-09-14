@@ -24,6 +24,10 @@ RSS_FEEDS = [
     "https://www.science.org/rss/news_current.xml",
     "https://www.securityweek.com/feed",
 ]
+NEWS_URLS = [
+    "https://lobste.rs/",
+    "https://news.ycombinator.com/",
+]
 DT_FORMAT = [
     "%a, %d %b %Y %H:%M:%S %z",
     "%Y-%m-%dT%H:%M:%S%z",
