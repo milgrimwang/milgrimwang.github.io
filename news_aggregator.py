@@ -93,6 +93,10 @@ def parse_dt_string(dt_string):
     raise ValueError(f"Failed to parse {dt_string}")
 
 
+def first_or_none(values):
+    return values[0].strip() if values else None
+
+
 def main():
     news_links = []
     for rss_url in RSS_FEEDS:
