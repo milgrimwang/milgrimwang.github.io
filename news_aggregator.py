@@ -61,6 +61,9 @@ SKIP_NEWS = [
     "The best",
     "deals",
     "release date",
+    "hints and answers",
+    "episode",
+    "free movies",
 ]
 
 
