@@ -14,7 +14,6 @@ from jinja2 import Environment, FileSystemLoader
 RSS_FEEDS = [
     "https://www.technologyreview.com/feed/",
     "https://www.eurogamer.net/feed",
-    "https://www.techradar.com/feeds/articletype/news",
     "https://feeds.arstechnica.com/arstechnica/index",
     "https://www.engadget.com/rss.xml",
     "https://techcrunch.com/feed/",
@@ -64,6 +63,9 @@ SKIP_NEWS = [
     "hints and answers",
     "episode",
     "free movies",
+]
+SKIP_DOMAINS = [
+    "bbc.com",
 ]
 
 
@@ -171,6 +173,8 @@ def main():
                 url = first_or_none(detail.xpath('.//a[@class="u-url"]/@href'))
                 if url and not url.startswith("https"):
                     continue
+                if any(domain in url for domain in SKIP_DOMAINS):
+                    continue
                 title = first_or_none(detail.xpath('.//a[@class="u-url"]/text()'))
                 created_at = parse_dt_string(first_or_none(detail.xpath(".//time/@title")))
 
@@ -187,6 +191,8 @@ def main():
             for detail in details:
                 url = first_or_none(detail.xpath('.//span[@class="titleline"]/a/@href'))
                 if url and not url.startswith("https"):
+                    continue
+                if any(domain in url for domain in SKIP_DOMAINS):
                     continue
                 title = first_or_none(detail.xpath('.//span[@class="titleline"]/a/text()'))
                 created_at = parse_dt_string(first_or_none(detail.xpath('..//tr//span[@class="age"]/@title')))
