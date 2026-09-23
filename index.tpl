@@ -47,7 +47,7 @@
 </head>
 <body>
     <div class="links-container">
-        Last updated: {{ updated_at }}
+        Last updated: {{ updated_at }} <button id="run">run</button>
         <ul>
             {% for link in links %}
                 <li>
