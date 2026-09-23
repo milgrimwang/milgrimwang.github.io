@@ -66,6 +66,7 @@ SKIP_NEWS = [
 ]
 SKIP_DOMAINS = [
     "bbc.com",
+    "lemire.me",
 ]
 
 
