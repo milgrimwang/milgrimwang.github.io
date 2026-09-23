@@ -63,6 +63,7 @@ SKIP_NEWS = [
     "hints and answers",
     "episode",
     "free movies",
+    "YouTube",
 ]
 SKIP_DOMAINS = [
     "bbc.com",
@@ -174,11 +175,15 @@ def main():
                 url = first_or_none(detail.xpath('.//a[@class="u-url"]/@href'))
                 if url and not url.startswith("https"):
                     continue
+
                 if any(domain in url for domain in SKIP_DOMAINS):
                     continue
-                title = first_or_none(detail.xpath('.//a[@class="u-url"]/text()'))
-                created_at = parse_dt_string(first_or_none(detail.xpath(".//time/@title")))
 
+                title = first_or_none(detail.xpath('.//a[@class="u-url"]/text()'))
+                if any(skip.lower() in title.lower() for skip in SKIP_NEWS):
+                    continue
+
+                created_at = parse_dt_string(first_or_none(detail.xpath(".//time/@title")))
                 domain = urlparse(url).netloc.replace("www.", "").replace("feeds.", "").replace("spectrum.", "")
                 news_links.append({
                     "url": url, "text": title, "time": created_at.strftime(TPL_FORMAT), "ts": created_at, "domain": domain,
@@ -193,12 +198,15 @@ def main():
                 url = first_or_none(detail.xpath('.//span[@class="titleline"]/a/@href'))
                 if url and not url.startswith("https"):
                     continue
+
                 if any(domain in url for domain in SKIP_DOMAINS):
                     continue
+
                 title = first_or_none(detail.xpath('.//span[@class="titleline"]/a/text()'))
+                if any(skip.lower() in title.lower() for skip in SKIP_NEWS):
+                    continue
+
                 created_at = parse_dt_string(first_or_none(detail.xpath('..//tr//span[@class="age"]/@title')))
-
-
                 domain = urlparse(url).netloc.replace("www.", "").replace("feeds.", "").replace("spectrum.", "")
                 news_links.append({
                     "url": url, "text": title, "time": created_at.strftime(TPL_FORMAT), "ts": created_at, "domain": domain,
