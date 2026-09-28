@@ -69,6 +69,8 @@ SKIP_DOMAINS = [
     "bbc.com",
     "lemire.me",
     "economist.com",
+    "jvns.ca",
+    "substack.com",
 ]
 
 
