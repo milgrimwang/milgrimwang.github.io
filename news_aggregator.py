@@ -219,6 +219,7 @@ def main():
 
     
     if news_links:
+        news_links = list({item["url"]: item for item in news_links}.values())  # deduplicate by the `url` field
         news_links = sorted(news_links, key=lambda link: link["ts"], reverse=True)
         env = Environment(loader=FileSystemLoader("."))
         template = env.get_template(TEMPLATE_FILE)
