@@ -71,6 +71,7 @@ SKIP_DOMAINS = [
     "economist.com",
     "jvns.ca",
     "substack.com",
+    "wikipedia.org",
 ]
 
 
