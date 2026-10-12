@@ -12,7 +12,6 @@ from lxml import html
 from jinja2 import Environment, FileSystemLoader
 
 RSS_FEEDS = [
-    "https://www.technologyreview.com/feed/",
     "https://www.eurogamer.net/feed",
     "https://feeds.arstechnica.com/arstechnica/index",
     "https://www.engadget.com/rss.xml",
