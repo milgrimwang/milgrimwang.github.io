@@ -24,5 +24,18 @@
     "newCards": 2,
     "reviewedCards": 0,
     "skippedCards": 0
+  },
+  {
+    "id": "session-1794344338940",
+    "startedAt": 1794344338940,
+    "finishedAt": 1794344403908,
+    "duration": 65,
+    "cardsReviewed": 8,
+    "cardsCorrect": 7,
+    "cardsIncorrect": 1,
+    "averageGrade": 4.63,
+    "newCards": 0,
+    "reviewedCards": 8,
+    "skippedCards": 0
   }
 ]
