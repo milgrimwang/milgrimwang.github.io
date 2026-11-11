@@ -46,4 +46,4 @@ jobs:
       - name: Trigger Pages deployment
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run deploy.yml --ref main
+        run: gh workflow run run-deploy.yml --ref main
