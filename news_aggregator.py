@@ -104,7 +104,7 @@ def parse_dt_string(dt_string):
         raise ValueError(f"Failed to parse {dt_string}")
     except Exception as ex:
         print(f"Failed to parse ts string '{dt_string}'")
-        return dateitme.now()
+        return datetime.now()
 
 
 def first_or_none(values):
