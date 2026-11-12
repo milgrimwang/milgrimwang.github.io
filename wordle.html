@@ -8,6 +8,15 @@
     <meta name="apple-mobile-web-app-title" content="Wordle Game">
     <title>Wordle Game</title>
     <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: fixed;
+        }
+
         body {
             font-family: Arial, sans-serif;
             display: flex;
@@ -21,6 +30,7 @@
             -webkit-user-select: none; /* For Chrome, Safari, and Opera */
             -moz-user-select: none;    /* For Firefox */
             -ms-user-select: none;     /* For Internet Explorer/Edge */
+            touch-action: manipulation;
         }
 
         /* Light theme variables */
