@@ -18,7 +18,7 @@ RSS_FEEDS = [
     "https://techcrunch.com/feed/",
     "https://www.bleepingcomputer.com/feed/",
     "https://www.theregister.com/headlines.atom",
-    "https://spectrum.ieee.org/customfeeds/feed/all-topics/rss",
+    # "https://spectrum.ieee.org/customfeeds/feed/all-topics/rss",
     "https://www.science.org/rss/news_current.xml",
     "https://www.securityweek.com/feed",
 ]
