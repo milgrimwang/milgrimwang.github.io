@@ -18,7 +18,7 @@ RSS_FEEDS = [
     "https://techcrunch.com/feed/",
     "https://www.bleepingcomputer.com/feed/",
     "https://www.theregister.com/headlines.atom",
-    # "https://spectrum.ieee.org/customfeeds/feed/all-topics/rss",
+    "https://spectrum.ieee.org/customfeeds/feed/all-topics/rss",
     "https://www.science.org/rss/news_current.xml",
     "https://www.securityweek.com/feed",
 ]
@@ -88,19 +88,23 @@ def get_url_content(url):
 
 
 def parse_dt_string(dt_string):
-    if "EDT" in dt_string:
-        dt_string = dt_string.replace("EDT", "-04:00")
-
-    if "EST" in dt_string:
-        dt_string = dt_string.replace("EST", "-05:00")
-
-    for dt_format in DT_FORMAT:
-        try:
-            return datetime.strptime(dt_string, dt_format).replace(tzinfo=timezone.utc)
-        except ValueError:
-            pass
-
-    raise ValueError(f"Failed to parse {dt_string}")
+    try:
+        if "EDT" in dt_string:
+            dt_string = dt_string.replace("EDT", "-04:00")
+    
+        if "EST" in dt_string:
+            dt_string = dt_string.replace("EST", "-05:00")
+    
+        for dt_format in DT_FORMAT:
+            try:
+                return datetime.strptime(dt_string, dt_format).replace(tzinfo=timezone.utc)
+            except ValueError:
+                pass
+    
+        raise ValueError(f"Failed to parse {dt_string}")
+    except Exception as ex:
+        print(f"Failed to parse ts string '{dt_string}'")
+        return dateitme.now()
 
 
 def first_or_none(values):
