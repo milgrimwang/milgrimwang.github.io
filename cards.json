@@ -9,5 +9,16 @@
         "easiness": 2.5,
         "interval": 0,
         "updatedAt": "2026-11-13T21:57:27.182Z"
+    },
+    {
+        "id": 10002,
+        "question": "Ich",
+        "answer": "I",
+        "tags": [],
+        "grade": 0,
+        "repetition": 0,
+        "easiness": 2.5,
+        "interval": 0,
+        "updatedAt": "2026-11-13T21:59:17.634Z"
     }
 ]
