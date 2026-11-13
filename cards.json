@@ -1,0 +1,13 @@
+[
+    {
+        "id": 10001,
+        "question": "Zahl",
+        "answer": "number",
+        "tags": [],
+        "grade": 0,
+        "repetition": 0,
+        "easiness": 2.5,
+        "interval": 0,
+        "updatedAt": "2026-11-13T21:57:27.182Z"
+    }
+]
