@@ -1,12 +1,9 @@
 [
     {
         "id": 10001,
-        "question": "Ich1",
-        "answer": "I1",
-        "tags": [
-            "test",
-            "qwe"
-        ],
+        "question": "Ich",
+        "answer": "I",
+        "tags": [],
         "grade": 0,
         "repetition": 0,
         "easiness": 2.5,
