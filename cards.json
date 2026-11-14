@@ -56,11 +56,11 @@
         "question": "sagen",
         "answer": "say",
         "tags": [],
-        "grade": 0,
-        "repetition": 0,
-        "easiness": 2.5,
-        "interval": 0,
-        "updatedAt": "2026-11-14T19:42:27.555Z"
+        "grade": 3,
+        "repetition": 1,
+        "easiness": 2.36,
+        "interval": 1,
+        "updatedAt": "2026-11-14T23:49:00.225Z"
     },
     {
         "id": 10007,
