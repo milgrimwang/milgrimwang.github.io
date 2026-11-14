@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "id": 10001,
+        "question": "Ich",
+        "answer": "I",
+        "tags": [],
+        "grade": 0,
+        "repetition": 0,
+        "easiness": 2.5,
+        "interval": 0,
+        "updatedAt": "2026-11-14T15:00:58.804Z"
+    }
+]
