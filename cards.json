@@ -75,5 +75,16 @@
         "easiness": 2.5,
         "interval": 0,
         "updatedAt": "2026-11-14T19:42:27.555Z"
+    },
+    {
+        "id": 10007,
+        "question": "Haus",
+        "answer": "house",
+        "tags": [],
+        "grade": 0,
+        "repetition": 0,
+        "easiness": 2.5,
+        "interval": 0,
+        "updatedAt": "2026-11-14T19:46:53.674Z"
     }
 ]
