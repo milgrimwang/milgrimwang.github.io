@@ -26,5 +26,19 @@
         "easiness": 2.5,
         "interval": 0,
         "updatedAt": "2026-11-14T19:15:34.636Z"
+    },
+    {
+        "id": 10003,
+        "question": "blau",
+        "answer": "blue",
+        "tags": [
+            "color",
+            "easy"
+        ],
+        "grade": 0,
+        "repetition": 0,
+        "easiness": 2.5,
+        "interval": 0,
+        "updatedAt": "2026-11-14T19:27:48.303Z"
     }
 ]
