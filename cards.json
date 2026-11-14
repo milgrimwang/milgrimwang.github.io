@@ -1,15 +1,1 @@
-[
-    {
-        "id": 10003,
-        "question": "Kurz",
-        "answer": "short",
-        "tags": [
-            "skip"
-        ],
-        "grade": 0,
-        "repetition": 0,
-        "easiness": 2.5,
-        "interval": 0,
-        "updatedAt": "2026-11-13T22:01:14.271Z"
-    }
-]
+[]
