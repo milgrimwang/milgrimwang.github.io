@@ -80,7 +80,9 @@
         "id": 10007,
         "question": "Haus",
         "answer": "house",
-        "tags": [],
+        "tags": [
+            "easy"
+        ],
         "grade": 0,
         "repetition": 0,
         "easiness": 2.5,
