@@ -1,7 +1,6 @@
 {
     "cardsPerSession": "30",
     "tagsPerSession": [
-        "easy",
         "color"
     ]
 }
