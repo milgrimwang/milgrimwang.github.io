@@ -21,11 +21,11 @@
             "test",
             "easy"
         ],
-        "grade": 0,
-        "repetition": 0,
+        "grade": 4,
+        "repetition": 1,
         "easiness": 2.5,
-        "interval": 0,
-        "updatedAt": "2026-11-14T19:15:34.636Z"
+        "interval": 1,
+        "updatedAt": "2026-11-14T23:48:38.943Z"
     },
     {
         "id": 10003,
