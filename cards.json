@@ -64,5 +64,16 @@
         "easiness": 2.5,
         "interval": 0,
         "updatedAt": "2026-11-14T19:42:03.905Z"
+    },
+    {
+        "id": 10006,
+        "question": "sagen",
+        "answer": "say",
+        "tags": [],
+        "grade": 0,
+        "repetition": 0,
+        "easiness": 2.5,
+        "interval": 0,
+        "updatedAt": "2026-11-14T19:42:27.555Z"
     }
 ]
