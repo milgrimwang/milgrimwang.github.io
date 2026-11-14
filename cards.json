@@ -7,11 +7,11 @@
             "test",
             "easy"
         ],
-        "grade": 0,
-        "repetition": 0,
-        "easiness": 2.5,
-        "interval": 0,
-        "updatedAt": "2026-11-14T15:00:58.804Z"
+        "grade": 5,
+        "repetition": 1,
+        "easiness": 2.6,
+        "interval": 1,
+        "updatedAt": "2026-11-14T23:49:15.708Z"
     },
     {
         "id": 10002,
