@@ -3,7 +3,10 @@
         "id": 10001,
         "question": "Ich",
         "answer": "I",
-        "tags": [],
+        "tags": [
+            "test",
+            "easy"
+        ],
         "grade": 0,
         "repetition": 0,
         "easiness": 2.5,
