@@ -45,11 +45,11 @@
         "question": "kurz",
         "answer": "short",
         "tags": [],
-        "grade": 0,
-        "repetition": 0,
+        "grade": 4,
+        "repetition": 1,
         "easiness": 2.5,
-        "interval": 0,
-        "updatedAt": "2026-11-14T19:42:03.905Z"
+        "interval": 1,
+        "updatedAt": "2026-11-14T23:48:52.925Z"
     },
     {
         "id": 10006,
