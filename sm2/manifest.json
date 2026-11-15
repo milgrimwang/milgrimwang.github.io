@@ -1,0 +1,17 @@
+{
+    "name": "SM2",
+    "short_name": "SM2",
+    "start_url": "/sm2/",
+    "scope": "/sm2/",
+    "display": "standalone",
+    "background_color": "#111827",
+    "theme_color": "#111827",
+    "icons": [
+        {
+            "src": "icon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        }
+    ]
+}
