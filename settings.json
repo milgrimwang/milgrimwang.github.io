@@ -1,7 +1,5 @@
 {
     "cardsPerStudy": "20",
     "ignoreSchedule": true,
-    "tagsPerStudy": [
-        "easy"
-    ]
+    "tagsPerStudy": []
 }
