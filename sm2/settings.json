@@ -1,5 +1,5 @@
 {
-    "cardsPerStudy": "20",
-    "ignoreSchedule": false,
+    "cardsPerStudy": "30",
+    "ignoreSchedule": true,
     "tagsPerStudy": []
 }
