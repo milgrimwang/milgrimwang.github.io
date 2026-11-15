@@ -107,7 +107,8 @@
         "question": "rot",
         "answer": "red",
         "tags": [
-            "easy"
+            "easy",
+            "color"
         ],
         "grade": 0,
         "repetition": 0,
