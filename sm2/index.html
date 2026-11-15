@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#111827">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="SM2">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="manifest" href="manifest.json">
+    <title>SM2</title>
+
+    <style>
+        #app {
+            zoom: 1.3;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: fixed;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #111827;
+            color: white;
+            font-family: system-ui, sans-serif;
+            touch-action: manipulation;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        div {
+            font-size: 64px;
+            font-weight: 700;
+            margin-bottom: 24px;
+        }
+
+        button {
+            padding: 16px 40px;
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            background: #3b82f6;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            touch-action: manipulation;
+            font-family: Consolas, "Courier New", monospace;
+        }
+
+        button:active {
+            transform: scale(0.96);
+        }
+
+        button.error {
+            background: #ef4444;
+        }
+
+        .buttonSkipNo {
+            padding: 2px 5px;
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+            background: #777777;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            touch-action: manipulation;
+            margin-left: auto;
+            margin-right: 2px;
+            font-family: Consolas, "Courier New", monospace;
+        }
+
+        .buttonSkipYes {
+            padding: 2px 5px;
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+            background: #049825;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            touch-action: manipulation;
+            margin-left: auto;
+            margin-right: 2px;
+            font-family: Consolas, "Courier New", monospace;
+        }
+
+        .buttonEdit {
+            padding: 2px 5px;
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+            background: #3b82f6;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            touch-action: manipulation;
+            margin-left: 2px;
+            margin-right: 2px;
+            font-family: Consolas, "Courier New", monospace;
+        }
+
+        .buttonDelete {
+            padding: 2px 5px;
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+            background: #ef4444;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            touch-action: manipulation;
+            margin-left: 2px;
+            margin-right: 2px;
+            font-family: Consolas, "Courier New", monospace;
+        }
+
+        #pageHome {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        #pageStudy {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        #pageNewCard {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        #pageEditCard {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        #pageSettings {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        #pageStats {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        [hidden] {
+            display: none !important;
+        }
+
+        #listCards {
+            height: 50dvh;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            min-height: 0;
+            gap: 0;
+            padding: 0;
+            overflow-x: hidden;
+            overflow-y: auto;
+            overscroll-behavior: contain;
+            -webkit-overflow-scrolling: touch;
+            /* Hide scrollbar */
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none; /* IE and Edge */
+        }
+
+        /* Hide scrollbar Chrome, Safari, newer Edge */
+        #listCards::-webkit-scrollbar {
+            display: none;
+        }
+
+        .cardRow {
+            margin-bottom: 0;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        .card {
+            margin: 0;
+            gap: 0;
+            padding-right: 4px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #3b82f6;
+            text-align: left;
+            min-width: 0;
+            overflow-wrap: anywhere;
+            font-family: Consolas, "Courier New", monospace;
+        }
+
+        .cardInput {
+            background-color: #131127;
+            color: #3b82f6;
+            border: 2px solid #3b82f6;
+            padding-right: 4px;
+            outline: none;
+            box-sizing: border-box;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: Consolas, "Courier New", monospace;
+        }
+
+        .cardInput.error {
+            border-color: #ef4444;
+        }
+
+        #listTags {
+            height: 20dvh;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            min-height: 0;
+            gap: 0;
+            padding: 0;
+            overflow-x: hidden;
+            overflow-y: auto;
+            overscroll-behavior: contain;
+            -webkit-overflow-scrolling: touch;
+            /* Hide scrollbar */
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none; /* IE and Edge */
+        }
+
+        /* Hide scrollbar Chrome, Safari, newer Edge */
+        #listTags::-webkit-scrollbar {
+            display: none;
+        }
+
+        .setting {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+            font-size: 20px;
+            font-weight: 600;
+            color: #3b82f6;
+            text-align: left;
+            min-width: 0;
+            justify-content: space-between;
+            width: 100%;
+            overflow-wrap: anywhere;
+            font-family: Consolas, "Courier New", monospace;
+        }
+
+        .setting input[type="checkbox"] {
+            appearance: none;
+            -webkit-appearance: none;
+
+            width: 22px;
+            height: 22px;
+            min-width: 22px;
+
+            background: #252525;
+            border: 2px solid #777;
+            border-radius: 5px;
+
+            cursor: pointer;
+            margin: 0;
+        }
+
+        /* Checked state */
+        .setting input[type="checkbox"]:checked {
+            background: #2563eb;
+            border-color: #60a5fa;
+        }
+
+        /* Checkmark */
+        .setting input[type="checkbox"]:checked::after {
+            content: "✓";
+            display: block;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 18px;
+        }
+
+        .tag {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            cursor: pointer;
+            user-select: none;
+            font-size: 20px;
+            font-weight: 600;
+            color: #3b82f6;
+            text-align: left;
+            min-width: 0;
+            overflow-wrap: anywhere;
+            font-family: Consolas, "Courier New", monospace;
+        }
+
+        .tag input[type="checkbox"] {
+            appearance: none;
+            -webkit-appearance: none;
+
+            width: 22px;
+            height: 22px;
+            min-width: 22px;
+
+            background: #252525;
+            border: 2px solid #777;
+            border-radius: 5px;
+
+            cursor: pointer;
+            margin: 0;
+        }
+
+        /* Checked state */
+        .tag input[type="checkbox"]:checked {
+            background: #2563eb;
+            border-color: #60a5fa;
+        }
+
+        /* Checkmark */
+        .tag input[type="checkbox"]:checked::after {
+            content: "✓";
+            display: block;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 18px;
+        }
+
+        .starRating {
+            display: flex;
+            gap: 8px;
+        }
+
+        .starRating span {
+            font-size: 32px;
+            color: #555;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .starRating span.active {
+            color: #ffc107;
+        }
+
+    </style>
+</head>
+
+<body>
+<main id="app" class="container">
+
+    <section id="pageStart">
+        <button id="buttonStart">START</button>
+    </section>
+
+    <section id="pageHome" hidden>
+        <button onclick="navigateTo('study')">STUDY</button>
+        <button onclick="navigateTo('cards')">CARDS</button>
+        <button onclick="navigateTo('stats')">STATS</button>
+        <button onclick="navigateTo('settings')">SETTINGS</button>
+    </section>
+
+    <section id="pageStudy" hidden>
+        <span id="noStudyCards" class="card"></span>
+        <span id="cardQuestion" class="card"></span>
+        <input type="text" id="cardAnswer" class="cardInput" autocomplete="off" placeholder="Answer">
+        <div id="starRating" class="starRating">
+            <span data-value="1">★</span>
+            <span data-value="2">★</span>
+            <span data-value="3">★</span>
+            <span data-value="4">★</span>
+            <span data-value="5">★</span>
+            <button class="buttonDelete" onclick="resetGrade()">&#10005;</button>
+        </div>
+        <span>
+            <button onclick="navigateTo('home')">BACK</button>
+            <button onclick="studyNextCard()">NEXT</button>
+        </span>
+    </section>
+
+    <section id="pageCards" hidden>
+        <div id="listCards"></div>
+        <button onclick="goHome()">BACK</button>
+        <button onclick="navigateTo('newCard')">+</button>
+    </section>
+
+    <section id="pageStats" hidden>
+        <span id="statsCardsCount" class="card"></span>
+        <span id="statsTagsCount" class="card"></span>
+        <span id="statsStudiesCount" class="card"></span>
+        <span id="statsLastStudy" class="card"></span>
+        <button onclick="goHome()">BACK</button>
+    </section>
+
+    <section id="pageNewCard" hidden>
+        <input type="text" id="questionNew" class="cardInput" autocomplete="off" placeholder="Question">
+        <input type="text" id="answerNew" class="cardInput" autocomplete="off" placeholder="Answer">
+        <input type="text" id="tagsNew" class="cardInput" autocomplete="off" placeholder="Comma separated tags">
+        <span>
+            <button onclick="navigateTo('cards')">BACK</button>
+            <button id="buttonSaveNewCard">SAVE</button>
+        </span>
+    </section>
+
+    <section id="pageEditCard" hidden>
+        <input type="text" id="questionEdit" class="cardInput" autocomplete="off" placeholder="Question">
+        <input type="text" id="answerEdit" class="cardInput" autocomplete="off" placeholder="Answer">
+        <input type="text" id="tagsEdit" class="cardInput" autocomplete="off" placeholder="Comma separated tags">
+        <span>
+            <button onclick="navigateTo('cards')">BACK</button>
+            <button id="buttonSaveEditCard">SAVE</button>
+        </span>
+    </section>
+
+    <section id="pageSettings" hidden>
+        <span class="card">
+            <label for="settingCardsPerStudy">Cards per study</label>
+        </span>
+        <input id="settingCardsPerStudy" class="cardInput" autocomplete="off" type="number" value="30" min="10">
+
+        <span class="card">
+            <label class="setting" for="settingIgnoreSchedule">Ignore schedule
+                <input id="settingIgnoreSchedule" type="checkbox" value="false">
+            </label>
+        </span>
+
+        <span class="card">
+            <label for="settingCardsPerStudy">Tags per study</label>
+        </span>
+        <div id="settingsTagsPerStudy">
+            <div id="listTags"></div>
+        </div>
+        <span>
+            <button onclick="goHome()">BACK</button>
+            <button id="buttonSaveSettings" onclick="saveSettings()">SAVE</button>
+        </span>
+    </section>
+
+</main>
+
+<script>
+    const blob1 = {
+        "salt": "doBW5Bpip8QLVjOlxGALQQ==",
+        "iv": "hPvEEgJoyuZaR3bR",
+        "ciphertext": "OeCq4tEGhD4qVe/BBWV2c1fktCaJ9XTG1gCzPvysbgIv0ev58O8xsf+lo/mmrd7clBk8BpckOmRp00mMVXsfurBbJn7W9q4Q7jO7esEHVEDUphbgTUQjZMT2+fuuDwTU1eDQWrliE6s9g/38ub3uXap2iSSn9sDWJ4O2v8e2m0r6Wxh1MxM45XAsYt3aVJaYLvC58uCexrz1joxfxP9Gm3e/BiABNnQjZqrgkzqkhZXCc3alK1wO8MbQ27q5sYcdR4MsHVkzkJNApLES72yLCPAbnGXx7ZzKdOEZs7LcHPu/WAm+iXgK5kjrSiPyo9Dk8bTgkB5QnOD3P5q+qtFeYWI/a3toTV7121OGOqTuNntce2qa9m2TcPTCeYUaeo43odm+snALL8IrqazqqqP2uCnOGZ+msLgX+a3Birjt7lDstg/6ub6mhgr0oGqo6InW88CYA5qviLmeAoXNq+gyPTbLQop6PPQ0fiMetDWSUAeKv7VXYsmzz2TdMMphmuOTtk74NaAnst2Oxu69gVwot+cfcnyfp/G2efdkum9wHDkDItNrH9Ra6PBkUJYyYTxFJhKK/A9ArRXrzYhWVxoefGGFxBKrafUfkQ9gfVFw6eLYmTb8DKNrl/zZTdMwvcl26Kc3H4S1aH88ZTE+tp12Wpb9h6Pzh/0GgFKKjGXvJlcfzg0rrjxS+f1M+GTX3ah6aJ0aOAtwxQ/AH81bqfbSyN+qn5GzlZgqnJfW/jw320a01H3EEEuPesWOLkb520o8xumqTGmJIqeGmhvt7wie9xYEEoMTy3rGsCVqFzlKj8RVFUu9EoCbVxe4FU/QUv2P6CM7pYCfLRFImRBWW2TJntOZP4dcGAi2RM8IDOcyYYsMnaty/u6BDh5i/ojc7Ib92SIlXWRJhkOVas1gZy711YVfGoR84kmY7t4l2kmhZ0feLenDn0BNW0Y9tgvFeMU7po/7m9ru/aAMUHa/pj0OSRhTAC6r2qMhBFriAAXFtwGTLklvyHtKiJDUEU/rLCtpu+VAToiC5AVBQmXj5XtUKFD/071N88xY2KHPzsIDR59Vuw=="
+    };
+    const blob2 = {
+        "salt": "seB7Oeh+QP3KjLOw2dGT7w==",
+        "iv": "/4fPjGtIzZRzBhyS",
+        "ciphertext": "4xJX8s5EtM4hr3Zulngs1xQGAQn2zjPcFnfP8HnWlXluQndPLy/ohEacCnM6PKj0m+rpeJHpcatf6kisXAMLCg6VlSzQUa2dteUfE7Pyi1CUZ15ZDKXEDleTIOIEhGph3VJ12R5TNWIlH3LsEdwbKAmakOh1ibEXY8gUGu8KS+r4MGQla03LlIgbyRLl/aDLiGxDDbGIh2zz57LYgy1Lmg7OQh+5hHdHToR2MUYMA+G+xkUts792wryF5Oiek8B/2Kpy5h0pjSJViUUKib/Dbr4Npa3u1mt0J7fnJ0CBZmFL68j97U0YUks+Jf0kxUQ4qaIgLOTvw9eQmMS7biBOJUgvHzyCqg2anDCFPmyhRsLkKpo4xqjziARFHOqv8PMCWF7qxFqEas0JfVCnCkkYcV6myS7l37BoIaOYdet1O7r4llKwcseTi6kMxnyOOeUWZ/U6gWfsifitXo+wr8SU+b+WN5fncylBnEPGNmE102DvXo06DwMZ2bKyP2dD8zqJOv5IlvvYNAys92spP2MBv7UA46LDPx83o828MStuyVSiDjEoSCh6qPweEUPMDd1fVx8owNB3TiGVMLDSGBTzf7OGN+zZXQen4go67RHWxnRayhqHmaSCjGxUSyoyLI3+dEtUHzy2lzoZ8UC/XqdehXV8C9YpQI6ruSWP/iUFzGGCHKcfcysIobeYlzcPzFZco2PIhPFdVzEq/52cqOZB6tuM6pY7vHPOkIKBXus0RhlNjG0rZwTZZ/HyGdd4E59rErMf3U3cPsGtg+kC1es19QitDqU1v2vbKS/Y3T9ETwaVoypHI1PmBpYvc6K8u7QKc0ZZ2OVSe985sf7VIDxLwN1lgYfqG1jXoJhpTAiDn9qOKpr5/3xYR6lLOkqpv4+LuEm6yPcVz0xc6/bryrIeShKGYW061eRAWJ7dCxxHt3x2pmCQJ0oCfjx44CgJjuYeWzc4qAGJpysGWtJihY+buOPQ53sgmORwW43y63s43Ti4MI39EArEfAFoJPkjxBGsZjf2IPx4BmDBRrYcIJr6FTWzXYxSZSZKDTKvjte+sljQfyxVe/QywlMDJeIbs7QGR2x4ix8UEj58i70CXCBVts0JGweK6ck5a1M5QZOXnjyjvv+h1LywIrhfDqc3n3A0EqERpkaK5YbyKrcE4OmFqFZDe2xNFfp7F+rcKHX9OUEbLX2J4+XCFqqUzIW08AvRK1RR2FPTk9zmg+SbZFUkMU5gPqUi9wK8uwPMVBA9b87Uy1H+cdgDet6hVVU1Y/yYBNUgWJl75otJahu4emkdBrO0CdVV"
+    };
+
+    const pageStart = document.getElementById("pageStart");
+    const buttonStart = document.getElementById("buttonStart");
+    const pageHome = document.getElementById("pageHome");
+    const pageStudy = document.getElementById("pageStudy");
+    const pageCards = document.getElementById("pageCards");
+    const pageStats = document.getElementById("pageStats");
+    const pageSettings = document.getElementById("pageSettings");
+    const pageNewCard = document.getElementById("pageNewCard");
+    const pageEditCard = document.getElementById("pageEditCard");
+    const navigation = {
+        "home": pageHome,
+        "study": pageStudy,
+        "cards": pageCards,
+        "stats": pageStats,
+        "settings": pageSettings,
+        "newCard": pageNewCard,
+        "editCard": pageEditCard,
+    };
+    const listCards = document.getElementById("listCards");
+    const buttonSaveNewCard = document.getElementById("buttonSaveNewCard");
+    const settingCardsPerStudy = document.getElementById("settingCardsPerStudy");
+    const listTags = document.getElementById("listTags");
+    const settingIgnoreSchedule = document.getElementById("settingIgnoreSchedule");
+    const noStudyCards = document.getElementById("noStudyCards");
+    const cardQuestion = document.getElementById("cardQuestion");
+    const cardAnswer = document.getElementById("cardAnswer");
+    const starRating = document.getElementById("starRating");
+    const statsCardsCount = document.getElementById("statsCardsCount");
+    const statsTagsCount = document.getElementById("statsTagsCount");
+    const statsStudiesCount = document.getElementById("statsStudiesCount");
+    const statsLastStudy = document.getElementById("statsLastStudy");
+
+    let currLocation = "home";
+    let function1 = null;
+    let function2 = null;
+    let cards = null;
+    let cardsSha = null;
+    let settings = null;
+    let settingsSha = null;
+    let studies = null;
+    let studiesSha = null;
+    let studyCards = null;
+    let study = null;
+    let studyGrade = 0;
+    let studyCardId = null;
+
+    async function decrypt(blob, password) {
+        const keyMaterial = await crypto.subtle.importKey(
+            "raw",
+            new TextEncoder().encode(password),
+            "PBKDF2",
+            false,
+            ["deriveKey"]
+        );
+
+        const key = await crypto.subtle.deriveKey(
+            {
+                name: "PBKDF2",
+                salt: Uint8Array.fromBase64(blob.salt),
+                iterations: 250000,
+                hash: "SHA-256"
+            },
+            keyMaterial,
+            {
+                name: "AES-GCM",
+                length: 256
+            },
+            false,
+            ["decrypt"]
+        );
+
+        const plaintext = await crypto.subtle.decrypt(
+            {
+                name: "AES-GCM",
+                iv: Uint8Array.fromBase64(blob.iv)
+            },
+            key,
+            Uint8Array.fromBase64(blob.ciphertext)
+        );
+
+        return new TextDecoder().decode(plaintext);
+    }
+
+    function shuffle(list) {
+        for (let i = list.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [list[i], list[j]] = [list[j], list[i]];
+        }
+    }
+
+    pageStart.onclick = async () => {
+        const password = prompt("");
+        if (!password) {
+            buttonStart.classList.add("error");
+            return;
+        }
+
+        try {
+            const source1 = await decrypt(blob1, password);
+            const source2 = await decrypt(blob2, password);
+            function1 = new Function("name", `return ${source1}`);
+            function2 = new Function("name", "content", "sha", `return ${source2}`);
+
+            [cardsSha, cards] = await function1("sm2/cards.json");
+            if (cards === null) {
+                cards = [];
+            }
+
+            [settingsSha, settings] = await function1("sm2/settings.json");
+            if (settings === null) {
+                settings = {
+                    "cardsPerStudy": 30,
+                    "ignoreSchedule": false,
+                    "tagsPerStudy": [],
+                };
+            }
+
+            [studiesSha, studies] = await function1("sm2/studies.json");
+            if (studies === null) {
+                studies = [];
+            }
+
+            start();
+        } catch (e) {
+            console.error(e);
+            buttonStart.classList.add("error");
+        }
+    };
+
+    function start() {
+        pageStart.hidden = true;
+        navigateTo("home");
+    }
+
+    function navigateTo(location) {
+        if (currLocation === "newCard") {
+            document.getElementById("questionNew").classList.remove("error");
+            document.getElementById("answerNew").classList.remove("error");
+        }
+        if (currLocation === "study") {
+            study = null;
+        }
+
+        navigation[currLocation].hidden = true;
+        navigation[location].hidden = false;
+        currLocation = location;
+        switch (currLocation) {
+            case "home": break;
+            case "study": renderStudy(); break;
+            case "cards": renderCards(); break;
+            case "stats": renderStats(); break;
+            case "settings": renderSettings(); break;
+        }
+    }
+
+    function goHome() {
+        navigation[currLocation].hidden = true;
+
+        currLocation = "home";
+        navigation[currLocation].hidden = false;
+    }
+
+    function renderCards() {
+        listCards.innerHTML = cards.map(card => {
+            const isSkip = card.tags.includes("skip");
+            return `
+            <div class="cardRow">
+                <span class="card">${card.question}</span>
+                <button class="${isSkip ? 'buttonSkipYes' : 'buttonSkipNo'}" onclick="buttonSkip(${card.id})">&#8644;</button>
+                <button class="buttonEdit" onclick="buttonEdit(${card.id})">&#9998;</button>
+                <button class="buttonDelete" onclick="buttonDelete(${card.id})">&#10005;</button>
+            </div>`;
+        }).join("");
+    }
+
+    async function buttonSkip(cardId) {
+        const card = cards.find(card => card.id === cardId);
+        if (card.tags.includes("skip")) {
+            card.tags.splice(card.tags.indexOf("skip"), 1);
+        } else {
+            card.tags.push("skip");
+        }
+        cardsSha = await function2("sm2/cards.json", cards, cardsSha);
+        renderCards();
+    }
+
+    async function buttonEdit(cardId) {
+        const card = cards.find(card => card.id === cardId);
+        navigateTo("editCard");
+        const question = document.getElementById("questionEdit");
+        question.value = card.question;
+        const answer = document.getElementById("answerEdit");
+        answer.value = card.answer;
+        const tags = document.getElementById("tagsEdit");
+        tags.value = card.tags.join(",")
+        const buttonSaveEditCard = document.getElementById("buttonSaveEditCard");
+        buttonSaveEditCard.onclick = buttonSaveEditCardHandler.bind(null, cardId);
+        question.classList.remove("error");
+        answer.classList.remove("error");
+    }
+
+    async function buttonDelete(cardId) {
+        const cardPos = cards.findIndex(card => card.id === cardId);
+        if (cardPos !== -1) {
+            cards.splice(cardPos, 1);
+        }
+        cardsSha = await function2("sm2/cards.json", cards, cardsSha);
+        renderCards();
+    }
+
+    buttonSaveNewCard.onclick = async () => {
+        const question = document.getElementById("questionNew");
+        const questionValue = question.value;
+        const answer = document.getElementById("answerNew");
+        const answerValue = answer.value;
+        const tags = document.getElementById("tagsNew");
+        const tagsValue = tags.value;
+
+        if (typeof questionValue !== "string" || !questionValue.length > 0) {
+            question.classList.add("error");
+            return;
+        }
+
+        if (typeof answerValue !== "string" || !answerValue.length > 0) {
+            answer.classList.add("error");
+            return;
+        }
+
+        const newId = cards.reduce((max, card) => Math.max(max, card.id), 10000) + 1;
+        const newCard = {
+            "id": newId,
+            "question": questionValue,
+            "answer": answerValue,
+            "tags": tagsValue.split(",").filter(Boolean),
+            "grade": 0,
+            "repetition": 0,
+            "easiness": 2.5,
+            "interval": 0,
+            "updatedAt": new Date().toISOString()
+        }
+        cards.push(newCard);
+
+        question.value = "";
+        question.classList.remove("error");
+        answer.value = "";
+        answer.classList.remove("error");
+        tags.value = "";
+        cardsSha = await function2("sm2/cards.json", cards, cardsSha);
+        navigateTo("cards");
+    }
+
+    async function buttonSaveEditCardHandler(cardId) {
+        const card = cards.find(card => card.id === cardId);
+        const question = document.getElementById("questionEdit");
+        const questionValue = question.value;
+        const answer = document.getElementById("answerEdit");
+        const answerValue = answer.value;
+        const tags = document.getElementById("tagsEdit");
+        const tagsValue = tags.value;
+
+        if (typeof questionValue !== "string" || !questionValue.length > 0) {
+            question.classList.add("error");
+            return;
+        }
+
+        if (typeof answerValue !== "string" || !answerValue.length > 0) {
+            answer.classList.add("error");
+            return;
+        }
+
+        card.question = questionValue;
+        card.answer = answerValue;
+        card.tags = tagsValue.split(",").filter(Boolean);
+        cardsSha = await function2("sm2/cards.json", cards, cardsSha);
+        navigateTo("cards");
+    }
+
+    function renderSettings() {
+        settingCardsPerStudy.value = settings["cardsPerStudy"];
+        settingIgnoreSchedule.checked = settings["ignoreSchedule"];
+        let tags = new Set();
+        cards.map(card => card.tags.forEach(tag => tags.add(tag)));
+        if (tags.has("skip")) {
+            tags.delete("skip");
+        }
+        tags = [...tags];
+        listTags.innerHTML = tags.map(tag => `
+            <label class="tag">
+                <input type="checkbox" value="${tag}">
+                <span class="tag">${tag}</span>
+            </label>
+        `).join("");
+        document.querySelectorAll(
+            "#listTags input[type=checkbox]"
+        ).forEach(cb => {
+            cb.checked = settings["tagsPerStudy"].includes(cb.value);
+        });
+    }
+
+    async function saveSettings() {
+        if (settingCardsPerStudy.value < 10) {
+            settingCardsPerStudy.classList.add("error");
+            return;
+        }
+
+        settings["cardsPerStudy"] = settingCardsPerStudy.value;
+        settings["ignoreSchedule"] = settingIgnoreSchedule.checked;
+        settings["tagsPerStudy"] = Array.from(
+            document.querySelectorAll(
+                "#listTags input[type=checkbox]:checked"
+            )
+        ).map(checkbox => checkbox.value);
+
+        settingCardsPerStudy.classList.remove("error");
+        settingsSha = await function2("sm2/settings.json", settings, settingsSha);
+        navigateTo("home");
+    }
+
+    function getStudyCards() {
+        const cardsIds = [];
+        for (const card of cards) {
+            if (cardsIds.length === settings["cardsPerStudy"]) {
+                break;
+            }
+            if (card.tags.includes("skip")) {
+                continue;
+            }
+            if (settings["tagsPerStudy"].length > 0) {
+                let foundTag = false;
+                for (const tag of settings["tagsPerStudy"]) {
+                    if (card.tags.includes(tag)) {
+                        foundTag = true;
+                        break;
+                    }
+                }
+                if (!foundTag) {
+                    continue;
+                }
+            }
+            if (settings["ignoreSchedule"]) {
+                cardsIds.push(card.id);
+            } else {
+                const reviewDate = new Date(card.updatedAt);
+                const studyDate = new Date(study.studiedAt);
+                reviewDate.setUTCDate(reviewDate.getUTCDate() + card.interval);
+                if (reviewDate < studyDate) {
+                    cardsIds.push(card.id);
+                }
+            }
+        }
+        return cardsIds;
+    }
+
+    function updateStars(stars) {
+        stars.forEach(star => {
+            star.classList.toggle(
+                "active",
+                Number(star.dataset.value) <= studyGrade
+            );
+        });
+    }
+
+    function renderStudy() {
+        if (study === null) {
+            study = {
+                studiedAt: new Date().toISOString(),
+                duration: 0,
+                cards: [],
+            }
+            studyCards = getStudyCards();
+            shuffle(studyCards);
+        }
+        if (!studyCards.length > 0) {
+            noStudyCards.innerHTML = "No cards to study";
+            cardAnswer.hidden = true;
+            starRating.hidden = true;
+            return;
+        } else {
+            cardAnswer.hidden = false;
+            starRating.hidden = false;
+        }
+        studyCardId = studyCards.shift();
+        const card = cards.find(card => card.id === studyCardId);
+        cardQuestion.innerHTML = card.question;
+        study["cards"].push(studyCardId);
+
+        const stars = document.querySelectorAll("#starRating span");
+        stars.forEach(star => {
+            star.onclick = () => {
+                studyGrade = Number(star.dataset.value);
+                updateStars(stars);
+            };
+        });
+
+        cardAnswer.addEventListener("blur", () => {
+            if (cardAnswer.value !== card.answer) {
+                cardAnswer.classList.add("error");
+            } else {
+                cardAnswer.classList.remove("error");
+            }
+        });
+    }
+
+    function resetGrade() {
+        studyGrade = 0;
+        const stars = document.querySelectorAll("#starRating span");
+        updateStars(stars);
+    }
+
+    function applySm2(card) {
+        if (card.grade >= 3) { // correct response
+            if (card.repetition === 0) {
+                card.interval = 1;
+            } else if (card.repetition === 1) {
+                card.interval = 6;
+            } else {
+                card.interval = Math.round(card.interval * card.easiness);
+            }
+            card.repetition += 1;
+        } else { // incorrect
+            card.repetition = 0
+            card.interval = 1
+        }
+        card.updatedAt = new Date().toISOString();
+        card.easiness = (card.easiness + (0.1 - (5 - card.grade) * (0.08 + (5 - card.grade) * 0.02))) * 100 / 100;
+        if (card.easiness < 1.3) {
+            card.easiness = 1.3;
+        }
+    }
+
+    async function studyNextCard() {
+        if (studyCardId !== null) {
+            const card = cards.find(card => card.id === studyCardId);
+            card.grade = studyGrade;
+            applySm2(card);
+            cardsSha = await function2("sm2/cards.json", cards, cardsSha);
+            resetGrade();
+            cardAnswer.classList.remove("error");
+            cardAnswer.value = "";
+            if (studyCards.length > 0) {
+                renderStudy();
+            } else {
+                if (study.cards.length > 0) {
+                    study.duration = Math.floor((new Date() - new Date(study.studiedAt)) / 1000);
+                    studies.push(study);
+                    studiesSha = await function2("sm2/studies.json", studies, studiesSha);
+                }
+                navigateTo("home");
+            }
+        } else {
+            navigateTo("home");
+        }
+    }
+
+    function renderStats() {
+        statsCardsCount.innerHTML = `Cards count: ${cards.length}`;
+
+        let tags = new Set();
+        cards.map(card => card.tags.forEach(tag => tags.add(tag)));
+        if (tags.has("skip")) {
+            tags.delete("skip");
+        }
+        tags = [...tags];
+        statsTagsCount.innerHTML = `Tags count: ${tags.length}`;
+
+        statsStudiesCount.innerHTML = `Studies count: ${studies.length}`;
+
+        const lastStudyDate = studies.reduce(
+            (latest, study) => study.studiedAt > latest ? study.studiedAt : latest, "");
+
+        if (lastStudyDate !== "") {
+            statsLastStudy.innerHTML = `Last study: ${lastStudyDate.split("T", 1)}`;
+        }
+    }
+
+</script>
+</body>
+</html>
