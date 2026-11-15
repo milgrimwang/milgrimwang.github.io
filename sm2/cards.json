@@ -110,11 +110,11 @@
             "easy",
             "color"
         ],
-        "grade": 4,
-        "repetition": 1,
-        "easiness": 2.5,
-        "interval": 1,
-        "updatedAt": "2026-11-15T00:05:55.295Z"
+        "grade": 5,
+        "repetition": 2,
+        "easiness": 2.6,
+        "interval": 6,
+        "updatedAt": "2026-11-15T14:31:57.562Z"
     },
     {
         "id": 10011,
