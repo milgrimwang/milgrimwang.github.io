@@ -5,8 +5,8 @@ on:
     branches:
       - main
     paths-ignore:
-      - '*.json'
-      - 'sm2/*.json'
+      # - '*.json'
+      # - 'sm2/*.json'
       - '.github/**'
   workflow_dispatch:
 
