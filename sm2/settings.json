@@ -1,7 +1,5 @@
 {
     "cardsPerStudy": "30",
     "ignoreSchedule": true,
-    "tagsPerStudy": [
-        "color"
-    ]
+    "tagsPerStudy": []
 }
