@@ -124,10 +124,10 @@
             "easy",
             "color"
         ],
-        "grade": 0,
-        "repetition": 0,
+        "grade": 4,
+        "repetition": 1,
         "easiness": 2.5,
-        "interval": 0,
-        "updatedAt": "2026-11-15T00:01:21.722Z"
+        "interval": 1,
+        "updatedAt": "2026-11-15T00:01:49.556Z"
     }
 ]
