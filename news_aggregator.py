@@ -103,8 +103,8 @@ def parse_dt_string(dt_string):
     
         raise ValueError(f"Failed to parse {dt_string}")
     except Exception as ex:
-        print(f"Failed to parse ts string '{dt_string}' because of {ex}")
-        return datetime.now(timezone.utc)
+        print(f"Failed to parse ts string '{dt_string}' because of '{ex}'")
+        return
 
 
 def first_or_none(values):
@@ -161,6 +161,8 @@ def main():
             if created_at:
                 created_at = created_at[0].strip()
                 created_at = parse_dt_string(created_at)
+                if created_at is None:
+                    continue
 
             if created_at > INTERVAL:
                 domain = urlparse(rss_url).netloc.replace("www.", "").replace("feeds.", "").replace("spectrum.", "")
