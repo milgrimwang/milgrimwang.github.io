@@ -63,6 +63,7 @@ SKIP_NEWS = [
     "episode",
     "free movies",
     "YouTube",
+    "GTA 6",
 ]
 SKIP_DOMAINS = [
     "bbc.com",
