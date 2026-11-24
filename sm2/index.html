@@ -760,10 +760,16 @@
             tags.delete("skip");
         }
         tags = [...tags];
+        const tagCounts = cards.reduce((acc, card) => {
+            card.tags.forEach(tag => {
+                acc[tag] = (acc[tag] || 0) + 1;
+            });
+            return acc;
+        }, {});
         listTags.innerHTML = tags.map(tag => `
             <label class="tag">
                 <input type="checkbox" value="${tag}">
-                <span class="tag">${tag}</span>
+                <span class="tag">${tag} (${tagCounts[tag]})</span>
             </label>
         `).join("");
         document.querySelectorAll(
