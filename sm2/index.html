@@ -410,6 +410,7 @@
 
     <section id="pageStats" hidden>
         <span id="statsCardsCount" class="card"></span>
+        <span id="statsSkipCardsCount" class="card"></span>
         <span id="statsTagsCount" class="card"></span>
         <span id="statsStudiesCount" class="card"></span>
         <span id="statsLastStudy" class="card"></span>
@@ -502,6 +503,7 @@
     const cardAnswer = document.getElementById("cardAnswer");
     const starRating = document.getElementById("starRating");
     const statsCardsCount = document.getElementById("statsCardsCount");
+    const statsSkipCardsCount = document.getElementById("statsSkipCardsCount");
     const statsTagsCount = document.getElementById("statsTagsCount");
     const statsStudiesCount = document.getElementById("statsStudiesCount");
     const statsLastStudy = document.getElementById("statsLastStudy");
@@ -936,6 +938,14 @@
 
     function renderStats() {
         statsCardsCount.innerHTML = `Cards count: ${cards.length}`;
+
+        const tagCounts = cards.reduce((acc, card) => {
+            card.tags.forEach(tag => {
+                acc[tag] = (acc[tag] || 0) + 1;
+            });
+            return acc;
+        }, {});
+        statsSkipCardsCount.innerHTML = `Skip cards count: ${tagCounts["skip"] || 0}`;
 
         let tags = new Set();
         cards.map(card => card.tags.forEach(tag => tags.add(tag)));
