@@ -90,19 +90,6 @@
         "updatedAt": "2026-11-14T23:49:24.458Z"
     },
     {
-        "id": 10009,
-        "question": "test",
-        "answer": "test",
-        "tags": [
-            "skip"
-        ],
-        "grade": 0,
-        "repetition": 0,
-        "easiness": 2.5,
-        "interval": 0,
-        "updatedAt": "2026-11-14T21:17:59.743Z"
-    },
-    {
         "id": 10010,
         "question": "rot",
         "answer": "red",
